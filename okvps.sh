@@ -36,6 +36,8 @@ ENVIRONMENT () {
 	pip3 install requests beautifulsoup4
 	pip3 install aiohttp aiofiles jsbeautifier
  	pip3 install weasyprint
+  	pip3 install requests
+   	pip3 install parth
 }
 
 DNS_RESOLVER () {
