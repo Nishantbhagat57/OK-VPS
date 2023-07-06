@@ -1,0 +1,4 @@
+[{
+	"command":"python3 /home/op/recon/OpenRedireX/openredirex.py -l input --keyword FUZZ -p /home/op/recon/OpenRedireX/payloads.txt | tee output",
+	"ext":"txt"
+}]
