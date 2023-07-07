@@ -268,6 +268,8 @@ DNS_RESOLVER () {
 	git clone https://github.com/xnl-h4ck3r/urless.git
  	cd urless
   	sudo python3 setup.py install
+   	pip3 install pyyaml
+    	pip3 install termcolor
 
    	cd $HOME/BB
     	git clone https://github.com/1ndianl33t/Gf-Patterns
