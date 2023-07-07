@@ -276,6 +276,10 @@ DNS_RESOLVER () {
 
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/jaeles1.json -O $HOME/.axiom/modules/jaeles1.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/openredirex0.json -O $HOME/.axiom/modules/openredirex0.json
+	
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri1.sh -O $HOME/BB/ghauri1.sh
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri2.sh -O $HOME/BB/ghauri2.sh
+  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri3.sh -O $HOME/BB/ghauri3.sh
 
 }
 
