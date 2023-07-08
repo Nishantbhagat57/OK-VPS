@@ -283,6 +283,8 @@ DNS_RESOLVER () {
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri2.sh -O $HOME/BB/ghauri2.sh
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri3.sh -O $HOME/BB/ghauri3.sh
 
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/hbsqli.json -O $HOME/.axiom/modules/hbsqli.json
+
 }
 
 ENVIRONMENT && DNS_RESOLVER;
