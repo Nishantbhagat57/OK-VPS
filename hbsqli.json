@@ -1,0 +1,4 @@
+[{
+	"command":"python3 /home/op/recon/HBSQLI/hbsqli.py -l input -p /home/op/recon/HBSQLI/payloads.txt -H /home/op/recon/HBSQLI/headers.txt -v | tee output",
+	"ext":"txt"
+}]
