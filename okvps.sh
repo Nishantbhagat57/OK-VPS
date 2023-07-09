@@ -258,6 +258,7 @@ DNS_RESOLVER () {
  	brew install proxychains-ng
   	brew install node
    	brew install python-tk
+    	brew install jadx
   
    	cd $HOME/BB
   	git clone https://github.com/ameenmaali/urldedupe.git
