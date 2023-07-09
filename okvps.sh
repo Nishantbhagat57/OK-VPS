@@ -257,6 +257,7 @@ DNS_RESOLVER () {
 	brew install cmake
  	brew install proxychains-ng
   	brew install node
+   	brew install python-tk
   
    	cd $HOME/BB
   	git clone https://github.com/ameenmaali/urldedupe.git
