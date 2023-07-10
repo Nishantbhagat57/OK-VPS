@@ -1,7 +1,7 @@
 #!/bin/bash -i
 
 #Creating tools directory if not exist
-mkdir -p /root/OK-VPS/tools /root/OK-VPS/tools/file /root/wordlist /root/templates;
+sudo mkdir -p /root/OK-VPS/tools /root/OK-VPS/tools/file /root/wordlist /root/templates;
 clear;
 
 ENVIRONMENT () {
