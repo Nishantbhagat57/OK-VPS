@@ -1,4 +1,4 @@
 [{
-	"command":"python3 /home/op/recon/dnsReaper/main.py --filename input --out output",
+	"command":"python3 /home/op/recon/dnsReaper/main.py file --filename input --out output",
 	"ext":"txt"
 }]
