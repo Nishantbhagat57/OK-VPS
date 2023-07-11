@@ -1,0 +1,4 @@
+[{
+	"command":"python3 /home/op/recon/dnsReaper/main.py --filename input --out output",
+	"ext":"txt"
+}]
