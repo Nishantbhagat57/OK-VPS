@@ -290,6 +290,7 @@ DNS_RESOLVER () {
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/hbsqli.json -O $HOME/.axiom/modules/hbsqli.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dnsreaper.json -O $HOME/.axiom/modules/dnsreaper.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffuf_postprocess.json -O $HOME/.axiom/modules/ffuf_postprocess.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun1.json -O $HOME/.axiom/modules/arjun1.json
 
 }
 
