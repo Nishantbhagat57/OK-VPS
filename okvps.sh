@@ -38,6 +38,7 @@ ENVIRONMENT () {
  	pip3 install weasyprint
   	pip3 install requests
    	pip3 install parth
+    	pip3 install sortedcontainers
 }
 
 DNS_RESOLVER () {
