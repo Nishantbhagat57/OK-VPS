@@ -1,4 +1,4 @@
 [{
-	"command":"cd /home/op/recon/acunetix && sudo chmod 777 * && export API_KEY=$(python3 acu_getkey.py) && cat input | rush -j20 'python3 /home/op/recon/acunetix/acu_start.py --api_key $API_KEY --target {}' | tee -a output",
+	"command":"/usr/local/bin/arjun -i input --stable -T 5 -t 20 -oT output",
 	"ext":"txt"
 }]
