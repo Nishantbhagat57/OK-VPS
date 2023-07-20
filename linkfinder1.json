@@ -1,5 +1,5 @@
 [{
-    "command":"python3 /home/op/recon/LinkFinder/linkfinder.py -i _target_ -o cli | tee -a output",
+    "command":"python3 /home/op/recon/LinkFinder/linkfinder.py -i _target_ -o cli | tee -a _output_/_cleantarget_",
     "ext":"txt",
     "threads":"3"
 }]
