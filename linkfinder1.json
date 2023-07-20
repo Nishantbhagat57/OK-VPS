@@ -1,4 +1,4 @@
 [{
-    "command":"python3 /home/op/recon/LinkFinder/linkfinder.py -i _target_ -o cli | tee -a output/_cleantarget_",
+    "command":"python3 /home/op/recon/LinkFinder/linkfinder.py -d -i _target_ -o cli | tee -a output/_cleantarget_",
     "ext":"txt"
 }]
