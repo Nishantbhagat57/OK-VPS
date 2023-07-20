@@ -1,0 +1,4 @@
+[{
+	"command":"/usr/local/bin/getJS --input input --complete --insecure --timeout 5 --output output",
+	"ext":"txt"
+}]
