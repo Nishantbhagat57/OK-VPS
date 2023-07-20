@@ -1,4 +1,5 @@
 [{
-	"command":"getJS --input input --complete --insecure --verbose --timeout 5 --output output",
-	"ext":"txt"
+	"command":"getJS --complete --insecure --verbose --timeout 5 --url _target_ --output _output_/_cleantarget_",
+  	"ext":"dir",
+  	"threads":"3"
 }]
