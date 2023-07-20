@@ -1,4 +1,4 @@
 [{
-	"command":"cat input | getJS | tee output",
+	"command":"getJS --input input --complete --insecure --timeout 5 --output output",
   	"ext":"txt"
 }]
