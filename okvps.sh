@@ -39,6 +39,8 @@ ENVIRONMENT () {
   	pip3 install requests
    	pip3 install parth
     	pip3 install sortedcontainers
+     	pip3 install slack_sdk
+      	pip3 install selenium
 }
 
 DNS_RESOLVER () {
