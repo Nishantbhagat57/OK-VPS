@@ -1,4 +1,5 @@
 [{
-	"command":"python3 /home/op/recon/LinkFinder/linkfinder.py --input _target_ --output cli | tee output",
-	"ext":"txt"
+  "command":"docker run -t --rm -i --mount type=bind,source=\"$(pwd)\",target=/data axiom/linkfinder -i _target_ -o cli | tee -a _output_/_cleantarget_",
+  "ext":"dir",
+  "threads":"3"
 }]
