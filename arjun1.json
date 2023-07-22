@@ -1,4 +1,4 @@
 [{
-	"command":"/usr/local/bin/arjun -i input -T 5 -t 40 -oT output",
+	"command":"/usr/local/bin/arjun -i input -T 5 -t 60 -oT output",
 	"ext":"txt"
 }]
