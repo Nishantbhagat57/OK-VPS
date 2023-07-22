@@ -153,6 +153,9 @@ DNS_RESOLVER () {
     	go install github.com/Damian89/ffufPostprocessing@master
   	sudo cp $HOME/go/bin/ffufPostprocessing /usr/local/bin
    
+   	go install github.com/shenwei356/rush@latest
+   	sudo cp $HOME/go/bin/rush /usr/local/bin
+    
  	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
   
