@@ -301,6 +301,7 @@ DNS_RESOLVER () {
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/acunetix.json -O $HOME/.axiom/modules/acunetix.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/getjs.json -O $HOME/.axiom/modules/getjs.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder1.json -O $HOME/.axiom/modules/linkfinder1.json
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ppfuzz.json -O $HOME/.axiom/modules/ppfuzz.json
 }
 
 ENVIRONMENT && DNS_RESOLVER;
