@@ -1,4 +1,4 @@
 [{
-	"command":"/home/op/recon/edduu/Arjun/arjun.py -t 60 -i input -oT output",
+	"command":"/home/op/recon/edduu/Arjun/arjun.py -t 60 --urls input -o output",
 	"ext":"txt"
 }]
