@@ -41,6 +41,7 @@ ENVIRONMENT () {
     	pip3 install sortedcontainers
      	pip3 install slack_sdk
       	pip3 install selenium
+        pip3 install uddup
 }
 
 DNS_RESOLVER () {
