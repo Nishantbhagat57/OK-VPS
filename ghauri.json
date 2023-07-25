@@ -1,5 +1,5 @@
 [{
-	"command":"domain=$(echo '_target_' | unfurl -u domains) && ghauri --timeout=10 --threads=120 --level=3 --technique=BT --batch --url='_target_' | tee -a _output_/$domain",
+	"command":"domain=$(echo '_target_' | unfurl -u domains) && ghauri --timeout 10 --threads 120 --level 3 --technique BT --batch --url '_target_' | tee -a _output_/$domain",
 	"ext":"txt",
 	"threads":"20"
 }]
