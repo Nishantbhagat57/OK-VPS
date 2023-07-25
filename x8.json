@@ -1,5 +1,5 @@
 [{
-	"command":"domain=$(echo _target_ | unfurl -u domains) && x8 --timeout 10 --workers 20 -c 80 --verify --wordlist /home/op/x8/params.txt --url '_target_' --append --output _output_/$domain",
+	"command":"domain=$(echo '_target_' | unfurl -u domains) && x8 --timeout 10 --workers 20 -c 80 --verify --wordlist /home/op/x8/params.txt --url '_target_' --append --output _output_/$domain",
 	"ext":"txt",
 	"threads":"1"
 }]
