@@ -270,6 +270,7 @@ DNS_RESOLVER () {
   	brew install node
    	brew install python-tk
     	brew install jadx
+  	brew install geckodriver
   
    	cd $HOME/BB
   	git clone https://github.com/ameenmaali/urldedupe.git
