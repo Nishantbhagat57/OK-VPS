@@ -25,14 +25,15 @@ ENVIRONMENT () {
 	apt install python3-pip -y > /dev/null 2>&1;
 	sudo apt-get install python3-venv -y
 	sudo apt install snapd
-	sudo apt-get install parallel
+	sudo apt-get install -y parallel
 	sudo rm /etc/parallel/config
 	sudo apt-get --assume-yes install git make gcc
 	sudo apt-get install -y grepcidr
-	sudo apt install wkhtmltopdf
+	sudo apt install -y wkhtmltopdf
 	sudo apt install -y libpcap-dev
-	sudo apt install zip
+	sudo apt install -y zip
 	sudo apt install -y dos2unix
+ 	sudo apt install -y default-jre
 	pip3 install requests beautifulsoup4
 	pip3 install aiohttp aiofiles jsbeautifier
  	pip3 install weasyprint
