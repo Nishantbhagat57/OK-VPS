@@ -44,6 +44,7 @@ ENVIRONMENT () {
         pip3 install uddup
 	pip3 install Faker
  	pip3 install selenium
+  	pip3 install browsermob-proxy
 }
 
 DNS_RESOLVER () {
