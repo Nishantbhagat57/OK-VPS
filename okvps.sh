@@ -42,6 +42,7 @@ ENVIRONMENT () {
      	pip3 install slack_sdk
       	pip3 install selenium
         pip3 install uddup
+	pip3 install Faker
 }
 
 DNS_RESOLVER () {
