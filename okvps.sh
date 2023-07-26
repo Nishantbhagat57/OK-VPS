@@ -24,7 +24,7 @@ ENVIRONMENT () {
 	apt install snapd -y > /dev/null 2>&1;
 	apt install python3-pip -y > /dev/null 2>&1;
 	sudo apt-get install python3-venv -y
-	sudo apt install snapd
+	sudo apt install -y snapd
 	sudo apt-get install -y parallel
 	sudo rm /etc/parallel/config
 	sudo apt-get --assume-yes install git make gcc
@@ -34,7 +34,6 @@ ENVIRONMENT () {
 	sudo apt install -y zip
 	sudo apt install -y dos2unix
  	sudo apt install -y software-properties-common
-  	sudo apt-get install -y openjdk-11-jdk
 	pip3 install requests beautifulsoup4
 	pip3 install aiohttp aiofiles jsbeautifier
  	pip3 install weasyprint
