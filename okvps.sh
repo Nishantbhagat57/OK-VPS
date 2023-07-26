@@ -34,7 +34,7 @@ ENVIRONMENT () {
 	sudo apt install -y zip
 	sudo apt install -y dos2unix
  	sudo apt install -y software-properties-common
- 	sudo apt install -y default-jre
+  	sudo apt-get install -y openjdk-11-jdk
 	pip3 install requests beautifulsoup4
 	pip3 install aiohttp aiofiles jsbeautifier
  	pip3 install weasyprint
