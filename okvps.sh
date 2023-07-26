@@ -33,6 +33,7 @@ ENVIRONMENT () {
 	sudo apt install -y libpcap-dev
 	sudo apt install -y zip
 	sudo apt install -y dos2unix
+ 	sudo apt install -y software-properties-common
  	sudo apt install -y default-jre
 	pip3 install requests beautifulsoup4
 	pip3 install aiohttp aiofiles jsbeautifier
