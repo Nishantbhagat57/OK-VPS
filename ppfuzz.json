@@ -1,4 +1,4 @@
 [{
-	"command":"ppfuzz -t 10 -c 20 -l input | tee -a output",
+	"command":"ppfuzz -t 10 -c 80 -l input | tee -a output",
 	"ext":"txt"
 }]
