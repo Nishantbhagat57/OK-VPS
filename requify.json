@@ -1,0 +1,4 @@
+[{
+	"command":"node /home/op/requify/requify.js input -o output",
+	"ext":""
+}]
