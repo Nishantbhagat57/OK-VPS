@@ -1,4 +1,4 @@
 [{
-	"command":"node /home/op/requify/requify.js input -o output",
+	"command":"node /home/op/requify/requify.js input output",
 	"ext":""
 }]
