@@ -161,6 +161,9 @@ DNS_RESOLVER () {
    	go install github.com/shenwei356/rush@latest
    	sudo cp $HOME/go/bin/rush /usr/local/bin
     
+    	go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+    	sudo cp $HOME/go/bin/dnsx /usr/local/bin
+     
  	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
   
