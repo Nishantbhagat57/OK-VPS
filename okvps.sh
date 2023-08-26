@@ -77,11 +77,6 @@ clear;
 	sudo make install
 	
 	cd $HOME/BB
-	git clone https://github.com/Nishantbhagat57/jsleaks.git
-	cd jsleaks
-	unzip assets.zip
-	
-	cd $HOME/BB
 	su nishant57
 
 	go install -v github.com/owasp-amass/amass/v3/...@master
@@ -312,3 +307,8 @@ clear;
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8.json -O $HOME/.axiom/modules/x8.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri.json -O $HOME/.axiom/modules/ghauri.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/requify.json -O $HOME/.axiom/modules/requify.json
+
+     	cd $HOME/BB
+	git clone https://github.com/Nishantbhagat57/jsleaks.git
+	cd jsleaks
+	unzip assets.zip
