@@ -10,10 +10,22 @@ ENVIRONMENT () {
     	apt-get update -y > /dev/null 2>&1;
 	sudo apt install wget > /dev/null 2>&1;
 	curl -fsSLo- https://s.id/golang-linux | bash
-	apt-get install python > /dev/null 2>&1;
-	apt-get install python2 > /dev/null 2>&1;
-	apt-get install python3 -y > /dev/null 2>&1;
-	apt-get install pip -y > /dev/null 2>&1;
+
+	cd $HOME/BB
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc
+	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+	brew doctor
+	brew install gcc
+ 	brew install git
+	brew install cmake
+ 	brew install proxychains-ng
+  	brew install node
+   	brew install python-tk
+    	brew install jadx
+  	brew install geckodriver
+ 	brew install python3
+  
 	apt-get install unzip > /dev/null 2>&1;
 	apt install curl -y > /dev/null 2>&1;
 	pip3 install colored  > /dev/null 2>&1;
@@ -263,19 +275,6 @@ DNS_RESOLVER () {
 	cd $HOME/BB
 	dos2unix *.sh
 	
-	cd $HOME/BB
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc
-	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-	brew doctor
-	brew install gcc
- 	brew install git
-	brew install cmake
- 	brew install proxychains-ng
-  	brew install node
-   	brew install python-tk
-    	brew install jadx
-  	brew install geckodriver
   
    	cd $HOME/BB
   	git clone https://github.com/ameenmaali/urldedupe.git
