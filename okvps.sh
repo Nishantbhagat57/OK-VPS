@@ -233,7 +233,15 @@ clear;
 	git clone https://github.com/laramies/theHarvester
 	cd theHarvester
 	sudo python3 -m pip install -r requirements/base.txt
-	
+ 	pip3 install netaddr
+  	pip3 install ujson
+	pip3 install aiomultiprocess
+ 	pip3 install aiodns
+  	pip3 install shodan
+   	pip3 install aiosqlite
+    	pip3 install pyppeteer
+    	pip3 install uvloop
+     
 	cd $HOME/BB
 	git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
 	cd xnLinkFinder
