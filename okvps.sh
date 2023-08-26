@@ -168,7 +168,10 @@ clear;
     
     	go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
     	sudo cp $HOME/go/bin/dnsx /usr/local/bin
-     
+
+     	go install github.com/tomnomnom/waybackurls@latest
+     	sudo cp $HOME/go/bin/waybackurls /usr/local/bin
+      
  	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
   
