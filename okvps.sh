@@ -4,7 +4,6 @@
 sudo mkdir -p /root/OK-VPS/tools /root/OK-VPS/tools/file /root/wordlist /root/templates;
 clear;
 
-ENVIRONMENT () {
 	echo -e ${BLUE}"[ENVIRONMENT]" ${RED}"Packages required installation in progress ...";
 	
     	apt-get update -y > /dev/null 2>&1;
@@ -60,9 +59,7 @@ ENVIRONMENT () {
 	pip3 install Faker
  	pip3 install selenium
   	pip3 install browsermob-proxy
-}
 
-DNS_RESOLVER () {
 	#MassDNS
 	echo -e ${BLUE}"[DNS RESOLVER]" ${RED}"MassDNS installation in progress ...";
 	su root -c "cd /root/OK-VPS/tools && git clone https://github.com/blechschmidt/massdns.git > /dev/null 2>&1 && cd massdns && make && make install > /dev/null 2>&1 && ln -s /root/OK-VPS/tools/massdns/bin/massdns /usr/local/bin/;"
@@ -315,6 +312,3 @@ DNS_RESOLVER () {
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8.json -O $HOME/.axiom/modules/x8.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri.json -O $HOME/.axiom/modules/ghauri.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/requify.json -O $HOME/.axiom/modules/requify.json
-}
-
-ENVIRONMENT && DNS_RESOLVER;
