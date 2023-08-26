@@ -73,8 +73,7 @@ clear;
 	sudo apt-get --assume-yes install git make gcc
 	git clone https://github.com/robertdavidgraham/masscan
 	cd masscan
-	sudo make
-	sudo make install
+	sudo make && sudo make install
 	
 	cd $HOME/BB
 	su nishant57
