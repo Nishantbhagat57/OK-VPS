@@ -27,6 +27,7 @@ clear;
   	brew install geckodriver
  	brew install python3
   	brew install trufflesecurity/trufflehog/trufflehog
+   	brew install docker
   
 	apt-get install unzip > /dev/null 2>&1;
 	apt install curl -y > /dev/null 2>&1;
