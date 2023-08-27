@@ -32,6 +32,7 @@ clear;
 	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
 	sudo apt update -y
 	sudo apt install docker-ce -y
+ 	sudo usermod -aG docker ${USER}
   
 	apt-get install unzip > /dev/null 2>&1;
 	apt install curl -y > /dev/null 2>&1;
