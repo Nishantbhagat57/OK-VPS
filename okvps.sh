@@ -68,6 +68,7 @@ clear;
 	sudo apt update -y
 	sudo apt-get install docker-ce docker-ce-cli containerd.io -y
  	sudo usermod -aG docker ${USER}
+  	sudo docker pull ghcr.io/praetorian-inc/noseyparker:latest
   	
 
 	#MassDNS
