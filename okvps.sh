@@ -37,6 +37,7 @@ clear;
 	apt install python-pip -y > /dev/null 2>&1;
 	apt install snapd -y > /dev/null 2>&1;
 	apt install python3-pip -y > /dev/null 2>&1;
+ 	sudo apt-get install expect -y
 	sudo apt-get install python3-venv -y
 	sudo apt install -y snapd
 	sudo apt-get install -y parallel
