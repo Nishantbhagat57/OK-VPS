@@ -182,6 +182,9 @@ clear;
 
      	go install github.com/tomnomnom/waybackurls@latest
      	sudo cp $HOME/go/bin/waybackurls /usr/local/bin
+      	
+       	go install ktbs.dev/mubeng/cmd/mubeng@latest
+	sudo cp $HOME/go/bin/mubeng /usr/local/bin
       
  	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
