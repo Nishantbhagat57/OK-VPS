@@ -1,4 +1,4 @@
 [{
-	"command":"mubeng -f input --timeout 2s -g 30 --check --output output",
+	"command":"mubeng -f input --timeout 5s -g 30 --check --output output",
 	"ext":"txt"
 }]
