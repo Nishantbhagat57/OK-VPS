@@ -62,6 +62,7 @@ clear;
 	pip3 install Faker
  	pip3 install selenium
   	pip3 install browsermob-proxy
+   	pip3 install fake-useragent
 
    	sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
 	curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
