@@ -83,7 +83,7 @@ a5B5D
 a5c
 a5p
 a5t
-A5WSessionId
+AWSessionId
 a6c
 a6p
 a6t
