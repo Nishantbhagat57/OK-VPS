@@ -1,0 +1,4 @@
+[{
+	"command":"heaptruffle --list input --concurrency 30 --output output",
+	"ext":"txt"
+}]
