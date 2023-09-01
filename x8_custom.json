@@ -1,0 +1,5 @@
+[{
+	"command":"domain=$(echo '_target_' | unfurl domains) && x8 --timeout 10 --workers 20 -c 40 --verify --remove-empty --output-format url --wordlist _wordlist_ --url '_target_' --append --output _output_/$domain",
+	"ext":"txt",
+	"threads":"5"
+}]
