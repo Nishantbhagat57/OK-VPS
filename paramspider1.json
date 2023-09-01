@@ -1,0 +1,4 @@
+[{
+  "command":"paramspider -l input -s | tee -a output",
+  "ext":"txt"
+}]
