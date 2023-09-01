@@ -338,6 +338,7 @@ clear;
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_jsurls.json -O $HOME/.axiom/modules/linkfinder_jsurls.json
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_domain.json -O $HOME/.axiom/modules/linkfinder_domain.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/heaptruffle.json -O $HOME/.axiom/modules/heaptruffle.json
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom.json -O $HOME/.axiom/modules/x8_custom.json
      	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/jsleaks.git
 	cd jsleaks
