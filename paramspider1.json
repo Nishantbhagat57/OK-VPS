@@ -1,4 +1,4 @@
 [{
-  "command":"paramspider -l input -s | tee -a output",
+  "command":"paramspider -l input -s | grep -Eo 'https?://[^ ]+' |tee -a output",
   "ext":"txt"
 }]
