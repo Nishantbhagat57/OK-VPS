@@ -26,6 +26,8 @@ clear;
     	brew install jadx
   	brew install geckodriver
  	brew install python3
+  	brew tap owasp-amass/amass
+   	brew install amass
   	brew install trufflesecurity/trufflehog/trufflehog
   
 	apt-get install unzip > /dev/null 2>&1;
@@ -90,9 +92,6 @@ clear;
 	
 	cd $HOME/BB
 	su nishant57
-
-	go install -v github.com/owasp-amass/amass/v3/...@master
-	sudo cp $HOME/go/bin/amass /usr/local/bin
 	
 	go install github.com/lc/subjs@latest
 	sudo cp $HOME/go/bin/subjs /usr/local/bin
