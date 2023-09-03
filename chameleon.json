@@ -1,5 +1,5 @@
 [{
-	"command":"/home/op/recon/chameleon/./chameleon --hosts-file input --tech-detect --concurrency 80 --user-agent 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0' --output output",
+	"command":"/home/op/recon/chameleon/./chameleon --hosts-file input --tech-detect --concurrency 80 --auto-calibrate --user-agent 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0' --output output",
 	"ext":"txt",
   	"threads":"3"
 }]
