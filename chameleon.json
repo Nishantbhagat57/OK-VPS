@@ -1,0 +1,5 @@
+[{
+	"command":"/home/op/recon/chameleon/./chameleon --hosts-file input --tech-detect --concurrency 80 --output output",
+	"ext":"txt",
+  "threads":"3"
+}]
