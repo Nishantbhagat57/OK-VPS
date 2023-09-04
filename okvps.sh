@@ -29,6 +29,7 @@ clear;
   	brew tap owasp-amass/amass
    	brew install amass
   	brew install trufflesecurity/trufflehog/trufflehog
+   	brew install ffmpeg
   
 	apt-get install unzip > /dev/null 2>&1;
 	apt install curl -y > /dev/null 2>&1;
