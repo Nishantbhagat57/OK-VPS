@@ -250,7 +250,7 @@ clear;
   	mkdir dorker
    	cd dorker
  	npm install puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise --save
-	
+	npm audit fix --force
 	
 	cd $HOME/BB
 	git clone https://github.com/laramies/theHarvester
