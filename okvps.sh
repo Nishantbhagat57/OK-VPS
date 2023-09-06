@@ -206,7 +206,7 @@ clear;
 	rustup update
 	sudo apt install cargo
 	
-	cd $HOME
+	cd $HOME/BB
 	git clone https://github.com/findomain/findomain.git
 	cd findomain
 	cargo build --release
@@ -222,11 +222,10 @@ clear;
 	cd HostHunter
 	sudo pip3 install -r requirements.txt
 
-	cd $HOME
+	cd $HOME/BB
 	cargo install ripgen
 	
 	cd $HOME/BB
-	
 	git clone https://github.com/shmilylty/OneForAll.git
 	cd OneForAll/
 	sudo python3 -m pip install -U pip setuptools wheel
@@ -241,11 +240,16 @@ clear;
 	cd dnsReaper
 	sudo pip3 install -r requirements.txt
 	
-	cd $HOME
+	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/SubDomz.git
 	cd SubDomz 
 	chmod +x install.sh SubDomz
 	./install.sh
+
+ 	cd $HOME/BB
+  	mkdir dorker
+ 	npm install puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise --save
+
 	
 	cd $HOME/BB
 	git clone https://github.com/laramies/theHarvester
