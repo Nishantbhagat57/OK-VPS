@@ -303,7 +303,12 @@ clear;
 	
 	cd $HOME/BB
 	dos2unix *.sh
-	
+
+ 	cd $HOME/BB
+  	git clone https://github.com/emadshanab/Gf-Patterns-Collection.git
+	cd $HOME/BB/Gf-Patterns-Collection
+ 	sudo chmod 777 *
+  	./set-all.sh
   
    	cd $HOME/BB
   	git clone https://github.com/ameenmaali/urldedupe.git
