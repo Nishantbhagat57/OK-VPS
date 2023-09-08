@@ -190,6 +190,9 @@ clear;
       	
        	go install ktbs.dev/mubeng/cmd/mubeng@latest
 	sudo cp $HOME/go/bin/mubeng /usr/local/bin
+
+ 	go install github.com/dwisiswant0/gfx@latest
+  	sudo cp $HOME/go/bin/gfx /usr/local/bin
       
  	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
