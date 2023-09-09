@@ -327,6 +327,7 @@ clear;
       	mv Gf-Patterns/*.json ~/.gf
 
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mklist -O $HOME/BB/mklist/mklist
+ 	sudo chmod 777 $HOME/BB/mklist/*
  
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/jaeles1.json -O $HOME/.axiom/modules/jaeles1.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/openredirex0.json -O $HOME/.axiom/modules/openredirex0.json
@@ -361,3 +362,8 @@ clear;
 	git clone https://github.com/Nishantbhagat57/jsleaks.git
 	cd jsleaks
 	unzip assets.zip
+
+ 	sudo chmod 777 $HOME/BB/*
+  	sudo chmod 777 $HOME/BB/*/*
+   	sudo chmod 777 $HOME/BB/*/*/*
+    	sudo chmod 777 $HOME/BB/*/*/*/*
