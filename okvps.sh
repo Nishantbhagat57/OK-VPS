@@ -325,6 +325,9 @@ clear;
     	git clone https://github.com/1ndianl33t/Gf-Patterns
      	mkdir ~/.gf
       	mv Gf-Patterns/*.json ~/.gf
+	
+ 	cd $HOME/BB
+        git clone https://github.com/rarecoil/unwebpack-sourcemap.git
 
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mklist -O $HOME/BB/mklist/mklist
  	sudo chmod 777 $HOME/BB/mklist/*
