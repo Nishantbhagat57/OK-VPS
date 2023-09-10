@@ -328,6 +328,7 @@ clear;
 	
  	cd $HOME/BB
         git clone https://github.com/rarecoil/unwebpack-sourcemap.git
+	sudo chmod 777 cd $HOME/BB/unwebpack-sourcemap/*
 
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mklist -O $HOME/BB/mklist/mklist
  	sudo chmod 777 $HOME/BB/mklist/*
