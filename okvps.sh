@@ -19,17 +19,18 @@ clear;
 	brew doctor
 	brew install gcc
  	brew install git
+  	brew install python3
 	brew install cmake
  	brew install proxychains-ng
   	brew install node
    	brew install python-tk
     	brew install jadx
   	brew install geckodriver
- 	brew install python3
   	brew tap owasp-amass/amass
    	brew install amass
   	brew install trufflesecurity/trufflehog/trufflehog
    	brew install ffmpeg
+    	brew install gitleaks
   
 	apt-get install unzip > /dev/null 2>&1;
 	apt install curl -y > /dev/null 2>&1;
