@@ -1,4 +1,5 @@
 [{
 	"command":"docker run --mount type=bind,source=\"$(pwd)\",target=/data http2smugl detect '_target_' | tee output",
-	"ext":"txt"
+	"ext":"txt",
+	"threads":"3"
 }]
