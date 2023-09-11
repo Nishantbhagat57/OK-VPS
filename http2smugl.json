@@ -1,0 +1,4 @@
+[{
+	"command":"docker run http2smugl detect '_target_' | tee -a output",
+	"ext":"txt"
+}]
