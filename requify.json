@@ -1,4 +1,4 @@
 [{
 	"command":"node /home/op/recon/requify/requify.js input output",
-	"ext":""
+	"ext":"dir"
 }]
