@@ -1,4 +1,4 @@
 [{
-	"command":"node /home/op/recon/requify/requify.js input output",
+	"command":"node /home/op/recon/requify/requify.js input output && cp -r output /home/op/recon/requify/result",
 	"ext":"dir"
 }]
