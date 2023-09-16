@@ -1,4 +1,4 @@
 [{
-	"command":"python3 /home/op/recon/HBSQLI/hbsqli.py -l input -p /home/op/recon/HBSQLI/payloads.txt -H /home/op/recon/HBSQLI/headers.txt -v | tee -a output",
+	"command":"python3 /home/op/recon/HBSQLI/hbsqli.py -l input -p /home/op/recon/HBSQLI/payloads.txt -H /home/op/recon/HBSQLI/headers.txt -v | tee -a '_output_/_cleantarget_'",
 	"ext":"dir"
 }]
