@@ -1,5 +1,5 @@
 [{
-  "command":"/home/op/recon/4-ZERO-3/./403-bypass.sh -u '_target_' --exploit | grep 'OOK' | tee -a output",
+  "command":"/home/op/recon/4-ZERO-3/./403-bypass.sh -u '_target_' --exploit | tee -a output",
   "ext":"txt",
   "threads":"5"
 }]
