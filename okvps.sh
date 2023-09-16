@@ -193,8 +193,11 @@ clear;
 
  	go install github.com/dwisiswant0/gfx@latest
   	sudo cp $HOME/go/bin/gfx /usr/local/bin
-      
- 	cd $HOME/BB
+
+   	go install github.com/projectdiscovery/katana/cmd/katana@latest
+      	sudo cp $HOME/go/bin/katana /usr/local/bin
+ 	
+  	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
   
 	cd $HOME/BB
