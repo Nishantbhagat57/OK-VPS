@@ -269,6 +269,7 @@ clear;
    	pip3 install aiosqlite
     	pip3 install pyppeteer
     	pip3 install uvloop
+     	pip3 install git+https://github.com/xnl-h4ck3r/knoxnl.git
      
 	cd $HOME/BB
 	git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
