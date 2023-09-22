@@ -1,5 +1,5 @@
 [{
-	"command":"x8 --timeout 10 --workers 20 -c 40 --verify --mimic-browser --remove-empty --output-format url --wordlist /home/op/x8/params.txt --url '_target_' --append --output '_output_/_safe-target_'",
+	"command":"x8 --timeout 10 --workers 20 -c 40 --verify --mimic-browser --remove-empty --output-format url --wordlist /home/op/x8/params.txt --url '_safe-target_' --append --output '_output_/_cleantarget_'",
 	"ext":"txt",
 	"threads":"5"
 }]
