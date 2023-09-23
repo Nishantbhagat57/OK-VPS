@@ -196,7 +196,10 @@ clear;
 
    	go install github.com/projectdiscovery/katana/cmd/katana@latest
       	sudo cp $HOME/go/bin/katana /usr/local/bin
- 	
+
+	go install github.com/jsageryd/urlquery@latest
+ 	sudo cp $HOME/go/bin/urlquery /usr/local/bin
+  
   	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
   
