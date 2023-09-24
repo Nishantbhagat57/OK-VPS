@@ -342,6 +342,7 @@ clear;
 	sudo chmod 777 $HOME/BB/SSTImap/*
  	cd $HOME/BB/SSTImap
   	pip3 install -r requirements.txt
+   	pip3 install --upgrade requests
    
 	cd $HOME/BB
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mklist -O $HOME/BB/mklist/mklist
