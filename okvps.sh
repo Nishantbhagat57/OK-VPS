@@ -343,6 +343,7 @@ clear;
  	cd $HOME/BB/SSTImap
   	pip3 install -r requirements.txt
    	pip3 install --upgrade requests
+    	pip3 list --outdated | cut -d ' ' -f1 | xargs -n1 pip3 install -U
    
 	cd $HOME/BB
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mklist -O $HOME/BB/mklist/mklist
