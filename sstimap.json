@@ -1,5 +1,5 @@
 [{
-	"command":"python3 /home/op/SSTImap/sstimap --load-urls input --forms --level 3 --output '_output_/_cleantarget_'",
+	"command":"python3 /home/op/SSTImap/sstimap.py -u '_target_' --forms --level 3 --output '_output_/_cleantarget_'",
 	"ext":"txt",
-	"threads":"5"
+	"threads":"30"
 }]
