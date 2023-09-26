@@ -372,8 +372,8 @@ clear;
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/requify.json -O $HOME/.axiom/modules/requify.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/paramspider1.json -O $HOME/.axiom/modules/paramspider1.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mubeng.json -O $HOME/.axiom/modules/mubeng.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_jsurls.json -O $HOME/.axiom/modules/linkfinder_jsurls.json
-       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_domain.json -O $HOME/.axiom/modules/linkfinder_domain.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_jsurls.json -O $HOME/.axiom/modules/linkfinderjs.json
+       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_domain.json -O $HOME/.axiom/modules/linkfinderd.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/heaptruffle.json -O $HOME/.axiom/modules/heaptruffle.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom.json -O $HOME/.axiom/modules/x8_custom.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/403bypass.json -O $HOME/.axiom/modules/403bypass.json
