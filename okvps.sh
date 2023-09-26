@@ -390,3 +390,5 @@ clear;
   	sudo chmod 777 $HOME/BB/*/*
    	sudo chmod 777 $HOME/BB/*/*/*
     	sudo chmod 777 $HOME/BB/*/*/*/*
+
+	export TMPDIR=/tmp
