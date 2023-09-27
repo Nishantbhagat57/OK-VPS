@@ -1,4 +1,4 @@
 [{
-	"command":"/home/op/recon/edduu/Arjun/arjun.py -f /home/op/recon/edduu/Arjun/db/params.txt -t 60 --urls input -o output",
+	"command":"python3 /home/op/recon/edduu/Arjun/arjun.py -f /home/op/recon/edduu/Arjun/db/params.txt -t 60 --urls input -o output",
 	"ext":"txt"
 }]
