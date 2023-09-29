@@ -382,6 +382,8 @@ clear;
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/403bypass.json -O $HOME/.axiom/modules/403bypass.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/chameleon.json -O $HOME/.axiom/modules/chameleon.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/http2smugl.json -O $HOME/.axiom/modules/http2smugl.json
+     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/certgraph_http.json -O $HOME/.axiom/modules/certgraph_http.json
+     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/certgraph_crt.json -O $HOME/.axiom/modules/certgraph_crt.json
      	
       	sudo chmod 777 $HOME/.axiom/modules/*
      	cd $HOME/BB
