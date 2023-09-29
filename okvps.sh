@@ -199,6 +199,9 @@ clear;
 
 	go install github.com/jsageryd/urlquery@latest
  	sudo cp $HOME/go/bin/urlquery /usr/local/bin
+
+	go install github.com/lanrat/certgraph@latest
+	sudo cp $HOME/go/bin/certgraph /usr/local/bin
   
   	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
