@@ -1,0 +1,4 @@
+[{
+	"command":"subzy run --targets input --concurrency 30 --hide_fails | tee -a output",
+	"ext":"txt"
+}]
