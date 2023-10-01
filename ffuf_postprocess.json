@@ -1,5 +1,5 @@
 [{
-	"command":"xyz=$(echo _target_ | unfurl -u domain) && /home/op/go/bin/ffuf -t 60 -fc 404 -maxtime 1800 -v -timeout 10 -H 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/117.0' -w _wordlist_ -u '_target_/FUZZ' -o $xyz.json -od $xyz -of json ; if [ -f $xyz.json ]; then ffufPostprocessing -result-file $xyz.json -bodies-folder $xyz -delete-bodies -overwrite-result-file && cat $xyz.json | tee -a _output_/_cleantarget_ ; fi",
+	"command":"xyz=$(echo _target_ | unfurl -u domain) && /home/op/go/bin/ffuf -t 60 -fc 404 -maxtime 2280 -v -timeout 10 -H 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/117.0' -w _wordlist_ -u '_target_/FUZZ' -o $xyz.json -od $xyz -of json ; if [ -f $xyz.json ]; then ffufPostprocessing -result-file $xyz.json -bodies-folder $xyz -delete-bodies -overwrite-result-file && cat $xyz.json | tee -a _output_/_cleantarget_ ; fi",
   	"wordlist":"/home/op/lists/seclists/Discovery/Web-Content/big.txt",
 	"ext":"txt",
 	"threads":"8"
