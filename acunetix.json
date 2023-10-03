@@ -1,4 +1,4 @@
 [{
-	"command":"export API_KEY=$(python3 /home/op/recon/acunetix/acu_getkey.py) && cat input | rush -j20 'python3 /home/op/recon/acunetix/acu_start_axiom.py --api_key $API_KEY --target {} --upload_file /home/op/recon/acunetix/alive_urls_uknownparams.txt' | tee -a output",
+	"command":"export API_KEY=$(python3 /home/op/recon/acunetix/acu_getkey_axiom.py) && cat input | rush -j20 'python3 /home/op/recon/acunetix/acu_start_axiom.py --api_key $API_KEY --target {} --upload_file /home/op/recon/acunetix/alive_urls_uknownparams.txt' | tee -a output",
 	"ext":"txt"
 }]
