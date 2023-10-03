@@ -57,7 +57,8 @@ clear;
 	pip3 install requests beautifulsoup4
 	pip3 install aiohttp aiofiles jsbeautifier
  	pip3 install weasyprint
-  	pip3 install requests
+  	pip3 install --upgrade urllib3
+   	pip3 install --upgrade requests
    	pip3 install parth
     	pip3 install sortedcontainers
      	pip3 install slack_sdk
