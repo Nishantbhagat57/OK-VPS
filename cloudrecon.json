@@ -1,5 +1,5 @@
 [{
 	"command":"CloudRecon scrape -i input | tee -a output",
 	"ext":"txt",
-  "threads":"20"
+  	"threads":"20"
 }]
