@@ -1,5 +1,5 @@
 [{
-	"command":"docker run -it --rm --mount type=bind,source=\"$(pwd)\",target=/data http2smugl detect '_target_'",
+	"command":"docker run -it --rm --mount type=bind,source=\"$(pwd)\",target=/data http2smugl detect _target_",
 	"ext":"txt",
 	"threads":"3"
 }]
