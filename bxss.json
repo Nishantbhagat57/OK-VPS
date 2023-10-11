@@ -1,5 +1,5 @@
 [{
 	"command":"python3 /home/op/xssemail.py input output /home/op/polygot.txt",
 	"ext":"txt",
-	"threads":"2"
+	"threads":"1"
 }]
