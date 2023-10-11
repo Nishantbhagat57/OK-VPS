@@ -1,0 +1,5 @@
+[{
+	"command":"python3 /home/op/bxss.py input output /home/op/polygot.txt",
+	"ext":"txt",
+  "threads":"2"
+}]
