@@ -390,6 +390,7 @@ clear;
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/sstimap.json -O $HOME/.axiom/modules/sstimap.json
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/subzy.json -O $HOME/.axiom/modules/subzy.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/cloudrecon.json -O $HOME/.axiom/modules/cloudrecon.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bxss.json -O $HOME/.axiom/modules/bxss.json
       
       	sudo chmod 777 $HOME/.axiom/modules/*
      	cd $HOME/BB
