@@ -1,5 +1,5 @@
 [{
-  "command":"/home/op/recon/4-ZERO-3/./403-bypass.sh -u _target_ --exploit | tee -a _output_/_cleantarget_",
+  "command":"python3 /home/op/recon/bypass-url-parser.py -u _target_ --threads 10 --timeout 10 | tee -a _output_/_cleantarget_",
   "ext":"txt",
-  "threads":"5"
+  "threads":"10"
 }]
