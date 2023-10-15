@@ -398,6 +398,12 @@ clear;
 	cd jsleaks
 	unzip assets.zip
 
+ 	cd $HOME/BB
+ 	git clone https://github.com/Nishantbhagat57/backup-gen.git
+  	cd backup-gen
+   	pip3 install cytoolz
+    	sudo chmod 777 *
+
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
    	sudo chmod 777 $HOME/BB/*/*/*
