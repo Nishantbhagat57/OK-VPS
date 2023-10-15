@@ -1,5 +1,5 @@
 [{
-  "command":"cat input | python3 /home/op/recon/bypass-url-parser/bypass_url_parser.py -u - --threads 20 --timeout 10 | tee -a output",
+  "command":"cat input | python3 /home/op/recon/bypass-url-parser/bypass_url_parser.py -u - --threads 40 --timeout 10 | tee -a output",
   "ext":"txt",
   "threads":"20"
 }]
