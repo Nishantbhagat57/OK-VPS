@@ -375,7 +375,8 @@ clear;
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ppfuzz.json -O $HOME/.axiom/modules/ppfuzz.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8.json -O $HOME/.axiom/modules/x8.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri.json -O $HOME/.axiom/modules/ghauri.json
-    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xnlinkfinder1.json -O $HOME/.axiom/modules/xnlinkfinder1.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xnlinkfinder1.json -O $HOME/.axiom/modules/xn1.json
+     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xnlinkfinder2.json -O $HOME/.axiom/modules/xn2.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/requify.json -O $HOME/.axiom/modules/requify.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/paramspider1.json -O $HOME/.axiom/modules/paramspider1.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mubeng.json -O $HOME/.axiom/modules/mubeng.json
