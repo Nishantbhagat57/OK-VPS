@@ -363,6 +363,11 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri3.sh -O $HOME/BB/ghauri3.sh
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri4.sh -O $HOME/BB/ghauri4.sh
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri5.sh -O $HOME/BB/ghauri5.sh
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri6.sh -O $HOME/BB/ghauri6.sh
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri7.sh -O $HOME/BB/ghauri7.sh
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri8.sh -O $HOME/BB/ghauri8.sh
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri9.sh -O $HOME/BB/ghauri9.sh
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri10.sh -O $HOME/BB/ghauri10.sh
 
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/hbsqli.json -O $HOME/.axiom/modules/hbsqli.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dnsreaper.json -O $HOME/.axiom/modules/dnsreaper.json
