@@ -413,6 +413,12 @@ mkdir -p $HOME/BB/wordlist
    	pip3 install cytoolz
     	sudo chmod 777 *
 
+ 	cd $HOME/BB
+     	git clone https://github.com/devanshbatham/heaptruffle
+	sudo chmod 777 *
+	sudo docker build -t heaptruffle .
+	sudo mv heaptruffle /usr/local/bin/heaptruffle
+
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
    	sudo chmod 777 $HOME/BB/*/*/*
