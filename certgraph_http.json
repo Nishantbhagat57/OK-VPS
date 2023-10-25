@@ -1,4 +1,4 @@
 [{
-	"command":"domain=$(cat input | unfurl domains) && certgraph -ct-subdomains -ct-expired -parallel 40 -sanscap 500 -depth 5 $domain | tee -a output",
+	"command":"domain=$(cat input | unfurl domains) && certgraph -ct-subdomains -ct-expired -parallel 50 -sanscap 500 -depth 5 $domain | tee -a output",
 	"ext":"txt"
 }]
