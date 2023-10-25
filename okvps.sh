@@ -97,9 +97,6 @@ clear;
 	cd masscan
 	sudo make && sudo make install
 	
-	cd $HOME/BB
-	su nishant57
-	
 	go install github.com/lc/subjs@latest
 	sudo cp $HOME/go/bin/subjs /usr/local/bin
 
