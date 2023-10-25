@@ -418,5 +418,6 @@ mkdir -p $HOME/BB/wordlist
      
      	sudo apt install snapd
 	sudo snap install core
+ 	sudo snap install ark
 	
  	export TMPDIR=/tmp
