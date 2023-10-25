@@ -1,0 +1,5 @@
+[{
+	"command":"cat input | tee -a output",
+	"ext":"txt",
+  "threads": 60
+}]
