@@ -376,6 +376,7 @@ mkdir -p $HOME/BB/wordlist
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufapi.json -O $HOME/.axiom/modules/ffufapi.json
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun1.json -O $HOME/.axiom/modules/arjun1.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun2.json -O $HOME/.axiom/modules/arjun2.json
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun3.json -O $HOME/.axiom/modules/arjun3.json
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/acunetix.json -O $HOME/.axiom/modules/acunetix.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/getjs.json -O $HOME/.axiom/modules/getjs.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ppfuzz.json -O $HOME/.axiom/modules/ppfuzz.json
