@@ -415,5 +415,8 @@ mkdir -p $HOME/BB/wordlist
   	sudo chmod 777 $HOME/BB/*/*
    	sudo chmod 777 $HOME/BB/*/*/*
     	sudo chmod 777 $HOME/BB/*/*/*/*
-
-	export TMPDIR=/tmp
+     
+     	sudo apt install snapd
+	sudo snap install core
+	
+ 	export TMPDIR=/tmp
