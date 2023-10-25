@@ -1,5 +1,5 @@
 [{
 	"command":"/usr/local/bin/arjun -i input -oT output",
 	"ext":"txt",
-  "threads": 80
+  	"threads": 40
 }]
