@@ -1,5 +1,5 @@
 [{
-	"command":"/usr/local/bin/arjun -i input -oT output",
+	"command":"/usr/local/bin/arjun -i input -t 60 -oT output",
 	"ext":"txt",
   	"threads": 40
 }]
