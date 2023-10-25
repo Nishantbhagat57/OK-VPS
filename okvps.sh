@@ -416,6 +416,7 @@ mkdir -p $HOME/BB/wordlist
  	cd $HOME/BB
      	git clone https://github.com/devanshbatham/heaptruffle
 	sudo chmod 777 *
+ 	cd $HOME/BB/heaptruffle
 	sudo docker build -t heaptruffle .
 	sudo mv heaptruffle /usr/local/bin/heaptruffle
 
