@@ -423,3 +423,4 @@ mkdir -p $HOME/BB/wordlist
  	sudo snap install ark
 	
  	export TMPDIR=/tmp
+  	subfinder
