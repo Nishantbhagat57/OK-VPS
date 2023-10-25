@@ -4,6 +4,9 @@
 sudo mkdir -p /root/OK-VPS/tools /root/OK-VPS/tools/file /root/wordlist /root/templates;
 clear;
 
+mkdir -p $HOME/BB
+mkdir -p $HOME/BB/wordlist
+
 	echo -e ${BLUE}"[ENVIRONMENT]" ${RED}"Packages required installation in progress ...";
 	
     	apt-get update -y > /dev/null 2>&1;
