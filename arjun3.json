@@ -1,5 +1,5 @@
 [{
-	"command":"arjun -i input -t 10 -T 10 -c 250 -oT output",
+	"command":"arjun -i input -t 10 -T 10 -oT output",
 	"ext":"txt",
-  	"threads": 80
+  	"threads": 40
 }]
