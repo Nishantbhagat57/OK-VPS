@@ -1,0 +1,5 @@
+[{
+    "command":"/home/op/go/bin/katana -list input -silent | tee -a output",
+    "ext":"txt",
+    "threads":"20"
+}]
