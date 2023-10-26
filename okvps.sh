@@ -77,6 +77,7 @@ mkdir -p $HOME/BB/wordlist
        	pip3 install redmail
 	pip3 install postleaksNg
  	pip3 install -U duckduckgo_search
+  	pip3 install arjun
 
    	sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
 	curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
