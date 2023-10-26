@@ -208,6 +208,9 @@ mkdir -p $HOME/BB/wordlist
 
 	go install github.com/lanrat/certgraph@latest
 	sudo cp $HOME/go/bin/certgraph /usr/local/bin
+
+ 	go install -v github.com/projectdiscovery/notify/cmd/notify@latest
+  	sudo cp $HOME/go/bin/notify /usr/local/bin
   
   	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
