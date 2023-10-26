@@ -113,7 +113,7 @@ mkdir -p $HOME/BB/wordlist
 	sudo cp $HOME/go/bin/haklistgen /usr/local/bin
 	sudo pip3 install dnsgen
 	
-	go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+	go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 	sudo cp $HOME/go/bin/nuclei /usr/local/bin
 	
 	go install github.com/tomnomnom/hacks/tok@master
