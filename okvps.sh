@@ -65,6 +65,7 @@ mkdir -p $HOME/BB/wordlist
    	pip3 install parth
     	pip3 install sortedcontainers
      	pip3 install slack_sdk
+      	pip3 install tree_sitter
       	pip3 install selenium
         pip3 install uddup
 	pip3 install Faker
