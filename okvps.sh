@@ -106,6 +106,7 @@ mkdir -p $HOME/BB/wordlist
 
 	go install github.com/lc/gau/v2/cmd/gau@latest
 	sudo cp $HOME/go/bin/gau /usr/local/bin
+ 	wget https://raw.githubusercontent.com/lc/gau/master/.gau.toml -O $HOME/.gau.toml
 
 	go install github.com/hakluke/haklistgen@latest
 	sudo cp $HOME/go/bin/haklistgen /usr/local/bin
