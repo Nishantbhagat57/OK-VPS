@@ -1,5 +1,5 @@
 [{
 	"command":"python3 /home/op/recon/xnLinkFinder/xnLinkFinder.py -i input -op cli | tee output",
 	"ext":"txt",
-	"threads": 20
+	"threads": "20"
 }]
