@@ -407,7 +407,8 @@ mkdir -p $HOME/BB/wordlist
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/cloudrecon.json -O $HOME/.axiom/modules/cloudrecon.json
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bxss.json -O $HOME/.axiom/modules/bxss.json
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/katana1.json -O $HOME/.axiom/modules/katana1.json
-       
+       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/httpx1.json -O $HOME/.axiom/modules/httpx1.json
+	
       	sudo chmod 777 $HOME/.axiom/modules/*
      	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/jsleaks.git
