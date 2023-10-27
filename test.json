@@ -1,5 +1,4 @@
 [{
-	"command":"cat input | tee -a output",
-	"ext":"txt",
-  "threads": 60
+	"command":"echo _target_ | tee -a _output_",
+	"threads":"1"
 }]
