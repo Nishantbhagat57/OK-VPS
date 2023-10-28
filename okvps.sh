@@ -270,7 +270,7 @@ mkdir -p $HOME/BB/wordlist
 
  	cd $HOME/BB
   	mkdir dorker
-   	cd dorker
+   	cd $HOME/BB/dorker
  	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise --save
 	npm audit fix --force
  	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise --save
