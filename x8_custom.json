@@ -1,4 +1,4 @@
 [{
-    "command": "cat input | rush -k -j 5 'domain=$(echo \"{}\" | unfurl domains) && x8 --timeout 10 --workers 20 -c 40 --verify --mimic-browser --remove-empty --output-format url --wordlist _wordlist_ --url \"{}\" --append --output output/$domain'",
-    "ext": "dir"
+    "command":"cat input | rush -k -j 5 'domain=$(echo \"{}\" | unfurl domains) && x8 --timeout 10 --workers 20 -c 40 --verify --mimic-browser --remove-empty --output-format url --wordlist _wordlist_ --url \"{}\" --append --output output/$domain'",
+    "ext":"dir"
 }]
