@@ -271,9 +271,9 @@ mkdir -p $HOME/BB/wordlist
  	cd $HOME/BB
   	mkdir dorker
    	cd $HOME/BB/dorker
-    	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise path fs string-similarity axios --save
+    	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise request request-promise-native path fs string-similarity axios --save
 	npm audit fix --force
-	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise path fs string-similarity axios --save	npm audit fix --force
+	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio request-promise path request request-promise-native fs string-similarity axios --save
  	npm audit fix --force
   
 	cd $HOME/BB
