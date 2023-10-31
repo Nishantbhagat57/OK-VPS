@@ -1,5 +1,5 @@
 [{
-	"command":"cat input | dnsresolver | tee -a output",
+	"command":"cat input | dnsresolver >> output",
 	"ext":"txt",
 	"threads":"3"
 }]
