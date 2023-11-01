@@ -432,8 +432,14 @@ mkdir -p $HOME/BB/wordlist
 	sudo docker build -t heaptruffle .
 	sudo mv heaptruffle /usr/local/bin/heaptruffle
 
+ 	mkdir -p $HOME/BB/jsmonitor
  	cd $HOME/BB/jsmonitor
   	git clone https://github.com/tree-sitter/tree-sitter-javascript.git
+
+ 	cd $HOME/BB
+   	git clone https://github.com/r0oth3x49/ghauri.git
+    	python3 -m pip install --upgrade -r requirements.txt
+     	python3 -m pip install -e .
   
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
