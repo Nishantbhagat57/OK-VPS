@@ -438,6 +438,7 @@ mkdir -p $HOME/BB/wordlist
 
  	cd $HOME/BB
    	git clone https://github.com/r0oth3x49/ghauri.git
+    	cd $HOME/BB/ghauri
     	python3 -m pip install --upgrade -r requirements.txt
      	python3 -m pip install -e .
   
