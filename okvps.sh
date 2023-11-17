@@ -339,7 +339,7 @@ mkdir -p $HOME/BB/wordlist
      	make
 
 	cd $HOME/BB
-	pip3 install git+https://github.com/xnl-h4ck3r/urless.git
+	pip3 install git+https://github.com/sureshsharma099/urless.git
    	pip3 install pyyaml
     	pip3 install termcolor
 
