@@ -79,6 +79,7 @@ mkdir -p $HOME/BB/wordlist
  	pip3 install -U duckduckgo_search
   	pip3 install arjun
    	pip3 install chardet
+    	pip3 install url-normalize
 
    	sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
 	curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
