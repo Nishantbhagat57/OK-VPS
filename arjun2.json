@@ -1,5 +1,5 @@
 [{
-	"command":"python3 /home/op/recon/edduu/Arjun/arjun.py -f /home/op/recon/edduu/Arjun/db/params.txt -t 20 --urls input -o output",	
+	"command":"python3 /home/op/recon/edduu/Arjun/arjun.py -f /home/op/recon/edduu/Arjun/db/params.txt -t 12 --urls input -o output",	
 	"ext":"txt",
-	"threads":"80"
+	"threads":"60"
 }]
