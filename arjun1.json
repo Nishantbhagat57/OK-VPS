@@ -1,5 +1,5 @@
 [{
-	"command":"python3 /home/op/recon/Arjun/arjun/__main__.py -t 10 -i input -oT output",	
+	"command":"python3 /home/op/recon/Arjun/arjun/__main__.py -t 8 -i input -oT output",	
 	"ext":"txt",
 	"threads":"40"
 }]
