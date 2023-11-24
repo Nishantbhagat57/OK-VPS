@@ -1,0 +1,5 @@
+[{
+	"command": "/home/op/go/bin/dalfox file input -o output",
+	"threads":"8",
+  "ext": "txt"
+}]
