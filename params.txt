@@ -1,5 +1,6 @@
 has_access
 HAS_ACCESS
+user_id_hashed
 &
 '
 )
