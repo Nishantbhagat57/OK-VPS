@@ -2,6 +2,8 @@ has_access
 HAS_ACCESS
 user_id_hashed
 user_display_name
+user_avatar
+user_initials
 &
 '
 )
