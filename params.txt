@@ -1,3 +1,6 @@
+has_access
+HAS_ACCESS
+is_admin
 &
 '
 )
