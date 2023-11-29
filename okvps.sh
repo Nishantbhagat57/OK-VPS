@@ -332,6 +332,8 @@ mkdir -p $HOME/BB/wordlist
 
  	cd $HOME/BB
  	git clone https://github.com/Nishantbhagat57/uniqueurls.git
+  	cd $HOME/BB/uniqueurls
+   	pip3 install -r requirements.txt
 	
 	cd $HOME/BB
 	dos2unix *.sh
