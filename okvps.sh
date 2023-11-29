@@ -329,6 +329,9 @@ mkdir -p $HOME/BB/wordlist
 	
 	cd $HOME/BB
 	wget https://github.com/Nishantbhagat57/My-Bug-Hunting-Repo/raw/main/CVE-2015-4050.yaml
+
+ 	cd $HOME/BB
+ 	git clone https://github.com/Nishantbhagat57/uniqueurls.git
 	
 	cd $HOME/BB
 	dos2unix *.sh
