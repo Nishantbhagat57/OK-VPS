@@ -427,6 +427,7 @@ mkdir -p $HOME/BB/wordlist
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dnsresolver.json -O $HOME/.axiom/modules/dnsresolver.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/massdns1.json -O $HOME/.axiom/modules/massdns1.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dalfox1.json -O $HOME/.axiom/modules/dalfox1.json
+  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffuflfi1.json -O $HOME/.axiom/modules/ffuflfi1.json
   
       	sudo chmod 777 $HOME/.axiom/modules/*
      	cd $HOME/BB
