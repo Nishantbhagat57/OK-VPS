@@ -220,6 +220,9 @@ mkdir -p $HOME/BB/wordlist
 
  	go install -v github.com/projectdiscovery/notify/cmd/notify@latest
   	sudo cp $HOME/go/bin/notify /usr/local/bin
+
+   	go install github.com/ffuf/pencode/cmd/pencode@latest
+  	sudo cp $HOME/go/bin/pencode /usr/local/bin
   
   	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
