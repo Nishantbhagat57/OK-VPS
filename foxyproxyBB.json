@@ -1,0 +1,145 @@
+{
+  "84kr3q1592995213323": {
+    "type": 1,
+    "color": "#cc883a",
+    "title": "Burp",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 8080,
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 9007199254740990
+  },
+  "mode": "patterns",
+  "u8acll1592995412908": {
+    "type": 5,
+    "color": "#66cc66",
+    "title": "Pass through",
+    "active": true,
+    "whitePatterns": [
+      {
+        "title": "Google",
+        "pattern": "*google.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "GStatic",
+        "pattern": "*gstatic.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Google APIs",
+        "pattern": "*googleapis.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "PKI Goog",
+        "pattern": "*pki.goog",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Mozilla",
+        "pattern": "*mozilla.org",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Google Analytics",
+        "pattern": "*google-analytics.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Usercentrics",
+        "pattern": "*usercentrics.eu",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Google Tag Manager",
+        "pattern": "*googletagmanager.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Doubleclick",
+        "pattern": "*doubleclick.net",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Google Syndication",
+        "pattern": "*googlesyndication.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Google Ad Services",
+        "pattern": "*googleadservices.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Twitter CDN",
+        "pattern": "*twimg.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Mozilla Telemetry",
+        "pattern": "*mozilla.net",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Digicert",
+        "pattern": "*digicert.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "Google User Content",
+        "pattern": "*googleusercontent.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 9007199254740989
+  },
+  "browserVersion": "77.0.1",
+  "foxyProxyVersion": "7.4.3",
+  "foxyProxyEdition": "standard"
+}
