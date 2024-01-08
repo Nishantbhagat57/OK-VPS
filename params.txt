@@ -1,3 +1,14 @@
+miniPop
+alwaysCover
+miniTitle
+miniColor
+miniLinkToTitle
+miniUrl
+miniBg
+hideBg
+width
+height
+sharing
 _
 __
 ~
