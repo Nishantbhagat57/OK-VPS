@@ -227,7 +227,9 @@ mkdir -p $HOME/BB/wordlist
 	
 	go install github.com/BishopFox/jsluice/cmd/jsluice@latest
 	sudo cp $HOME/go/bin/jsluice /usr/local/bin
-  
+
+	npm install -g @llllvvuu/dl-webapp-sources
+    
   	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
   
