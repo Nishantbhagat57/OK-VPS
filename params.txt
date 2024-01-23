@@ -1,3 +1,14 @@
+client_Number
+client_No
+client_number
+client_no
+client_num
+client_Num
+clientNo
+clientno
+clientnum
+clientnumber
+clientNumber
 deviceNumber
 terminalNo
 terminalNO
