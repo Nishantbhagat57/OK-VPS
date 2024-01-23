@@ -1,3 +1,12 @@
+deviceNumber
+terminalNo
+terminalNO
+terminalId
+sellerId
+pointNo
+appid
+appId
+appID
 _
 __
 ~
