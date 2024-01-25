@@ -1,0 +1,5 @@
+[{
+	  "command":"arjun -i input -w /home/op/recon/arjuncustomwl.txt -t 10 -T 10 -oT output",
+	  "ext":"txt",
+  	"threads":"60"
+}]
