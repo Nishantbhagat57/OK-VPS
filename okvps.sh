@@ -311,7 +311,9 @@ mkdir -p $HOME/BB/wordlist
 	cd xnLinkFinder
  	sudo pip3 install argparse requests psutil pyyaml termcolor urlparse3 beautifulsoup4 lxml html5lib urllib3 --break-system-packages
 	pip3 install argparse requests psutil pyyaml termcolor urlparse3 beautifulsoup4 lxml html5lib urllib3 --break-system-packages
-	sudo python3 setup.py install
+ 	pip3 install --upgrade setuptools pip --break-system-packages
+	sudo pip3 install --upgrade setuptools pip --break-system-packages
+ 	sudo python3 setup.py install
 		
 	cd $HOME
 	pip3 install gdown
