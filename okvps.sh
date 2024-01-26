@@ -309,6 +309,8 @@ mkdir -p $HOME/BB/wordlist
 	cd $HOME/BB
 	git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
 	cd xnLinkFinder
+ 	sudo pip3 install argparse requests psutil pyyaml termcolor urlparse3 beautifulsoup4 lxml html5lib urllib3 --break-system-packages
+	pip3 install argparse requests psutil pyyaml termcolor urlparse3 beautifulsoup4 lxml html5lib urllib3 --break-system-packages
 	sudo python3 setup.py install
 		
 	cd $HOME
