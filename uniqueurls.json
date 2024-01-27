@@ -1,0 +1,5 @@
+[{
+	"command":"node /home/op/recon/uniqueurls.js input output",
+	"ext":"txt",
+	"threads":"1"
+}]
