@@ -41,7 +41,7 @@ def get_response(url):
         try:
             headers = {"User-Agent": user_agent.random}
             response = session.get(url, headers=headers, timeout=15)
-            
+            response.raise_for_status() # new line: raises stored HTTPError, if one occurred
             # only retry for error status codes 429, 503 and 504
             if response.status_code in [429, 503, 504]:
                 print(f"Attempt failed with status code {response.status_code}. Retrying URL: {url}")
