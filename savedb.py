@@ -32,25 +32,25 @@ adapter = HTTPAdapter(max_retries=retry_strategy)
 user_agent = UserAgent(browsers=['firefox', 'chrome'])
 
 def get_response(url):
-    session = requests.Session()
-    session.verify = False
-    session.mount("https://", adapter)
-    session.mount("http://", adapter)
-
     for _ in range(3):  # retry 3 times
         try:
-            headers = {"User-Agent": user_agent.random}
-            response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
-            
-            # only retry for error status codes 429, 503 and 504
-            if response.status_code in [429, 503, 504]:
-                print(f"Attempt failed with status code {response.status_code}. Retrying URL: {url}")
-                continue
+            with requests.Session() as session:  # use session as a context manager
+                session.verify = False
+                session.mount("https://", adapter) 
+                session.mount("http://", adapter)
 
-            soup = BeautifulSoup(response.text, 'html.parser')
-            content = soup.prettify()
-            content_length = len(content)
-            return response.status_code, content_length, content
+                headers = {"User-Agent": user_agent.random}
+                response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
+
+                # only retry for error status codes 429, 503 and 504
+                if response.status_code in [429, 503, 504]:
+                    print(f"Attempt failed with status code {response.status_code}. Retrying URL: {url}")
+                    continue
+
+                soup = BeautifulSoup(response.text, 'html.parser')
+                content = soup.prettify()
+                content_length = len(content)
+                return response.status_code, content_length, content
 
         except requests.exceptions.RequestException as ex:  # catch only RequestException errors
             print(f"Failed fetching URL: {url}. Error: {str(ex)}")
