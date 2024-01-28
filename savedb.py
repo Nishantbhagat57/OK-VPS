@@ -9,6 +9,7 @@ import random
 import string
 from urllib.parse import urlparse
 from fake_useragent import UserAgent
+import traceback
 
 # db setup
 rand_str = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
@@ -37,8 +38,7 @@ async def fetch(url, session):
             conn.commit()
             print(f'Fetched: {url}')
     except Exception as e:
-        print(f'Error in fetching: {url}')
-        print(e)
+        print(f'Error in fetching: {url}\n', traceback.format_exc())
 
 
 async def process_URLs(urls):
