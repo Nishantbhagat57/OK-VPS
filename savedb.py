@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 from fake_useragent import UserAgent
 
 # db setup
-rand_str = ''.join(random.choices(string.ascii_lowercase + string.digits, k=5))
+rand_str = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
 DB_NAME = f'database_{rand_str}_{int(time.time())}.sqlite'  # change as needed
 conn = sqlite3.connect(DB_NAME)
 db = conn.cursor()
@@ -42,7 +42,7 @@ async def fetch(url, session):
 
 
 async def process_URLs(urls):
-    connector = aiohttp.TCPConnector(limit=10)
+    connector = aiohttp.TCPConnector(limit=20)
     headers = {"User-Agent": UserAgent(browsers=['firefox', 'chrome']).random}
     async with aiohttp.ClientSession(connector=connector, headers=headers) as session:
         tasks = []
