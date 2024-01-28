@@ -40,8 +40,8 @@ def get_response(url):
     for _ in range(3):  # retry 3 times
         try:
             headers = {"User-Agent": user_agent.random}
-            response = session.get(url, headers=headers, timeout=15)
-            response.raise_for_status() # new line: raises stored HTTPError, if one occurred
+            response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
+            
             # only retry for error status codes 429, 503 and 504
             if response.status_code in [429, 503, 504]:
                 print(f"Attempt failed with status code {response.status_code}. Retrying URL: {url}")
@@ -52,8 +52,9 @@ def get_response(url):
             content_length = len(content)
             return response.status_code, content_length, content
 
-        except Exception as ex:
+        except requests.exceptions.RequestException as ex:  # catch only RequestException errors
             print(f"Failed fetching URL: {url}. Error: {str(ex)}")
+    # return none if 429, 503 or 504 after 3 retries
     return None, None, None
 
 def create_database(db_path):
