@@ -26,7 +26,7 @@ conn.commit()
 async def fetch(url, session):
     try:
         # Forcibly skip SSL verification
-        async with session.get(url, timeout=20, ssl=False) as response:
+        async with session.get(url, timeout=30, ssl=False) as response:
             content = await response.text()
             status = response.status
             content_length = len(content)
@@ -53,7 +53,7 @@ async def process_URLs(urls):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print('Usage: python url_analysis_part1.py /path/to/inputurls.txt /path/to/outputdirectory')
+        print('Usage: python savedb.py /path/to/inputurls.txt /path/to/outputdirectory')
         sys.exit(1)
 
     input_filename = sys.argv[1]
