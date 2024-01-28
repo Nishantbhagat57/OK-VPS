@@ -89,7 +89,8 @@ def process_urls(file_path, output_dir, max_threads, max_timeout):
     print("All URLs processed.")
     db.close()
     print("Database closed.")
-
+    sys.exit(1)
+    
 if __name__ == '__main__':
     if len(sys.argv) < 5:
         print(f"Usage: python {sys.argv[0]} [input file path] [output directory path] [max threads] [max timeout]")
