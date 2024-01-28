@@ -118,3 +118,5 @@ if __name__ == '__main__':
         db.commit()
 
     db.close()
+    print("Completed all tasks. Exiting...")
+    sys.exit()
