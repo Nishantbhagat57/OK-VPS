@@ -1,5 +1,5 @@
 [{
-  "command":"cat input | rush -k -j 20 'ffuf -t 40 -fc 404 -maxtime 1800 -v -timeout 10 -H \"User-Agent: Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/117.0\" -w _wordlist_ -u \"{}\" -mr \"root:.*?:[0-9]*:[0-9]*:\" -o output'",
+  "command":"cat input | rush -k -j 20 'ffuf -t 40 -fc 404 -maxtime 1800 -v -timeout 20 -H \"User-Agent: Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/117.0\" -w _wordlist_ -u \"{}\" -mr \"root:.*?:[0-9]*:[0-9]*:\" -o output'",
   "wordlist":"/home/op/lists/seclists/Discovery/Web-Content/big.txt",
   "ext":"txt"
 }]
