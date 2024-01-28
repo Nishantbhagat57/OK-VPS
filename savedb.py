@@ -102,4 +102,4 @@ if __name__ == '__main__':
     max_timeout = int(sys.argv[4])
 
     process_urls(file_path, output_dir, max_threads, max_timeout)
-    sys.exit(1)
+    sys.exit()
