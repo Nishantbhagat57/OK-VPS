@@ -52,9 +52,11 @@ def process_urls(file_path, output_dir):
 
     for url in urls:
         url = url.strip()
+        print(f"Processing URL: {url}")
         domain = urlparse(url).hostname
         status_code, content_length, content = get_response(url)
         if status_code is None:
+            print(f"Skipping URL: {url} due to error during fetching.")
             continue
 
         db.cursor().execute(
