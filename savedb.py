@@ -107,6 +107,8 @@ if __name__ == '__main__':
         for url in urls:
             executor.submit(process_url, results_queue, url)
 
+        executor.shutdown(wait=True)
+
     while not results_queue.empty():
         domain, url, status_code, content_length, content = results_queue.get()
         db.cursor().execute(
