@@ -1,5 +1,5 @@
 [{
-	"command":"python3 /home/op/recon/uniqueurls/uniqueurls.py input output",
+	"command":"python3 /home/op/recon/uniqueurls/savedb.py input output",
 	"ext":"dir",
 	"threads":"1"
 }]
