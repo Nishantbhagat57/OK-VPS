@@ -1,4 +1,4 @@
 [{
-	"command":"getJS --input input --complete --insecure --timeout 5 --output output",
+	"command":"getJS --input input --complete --insecure --timeout 10 --output output",
   	"ext":"txt"
 }]
