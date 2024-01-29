@@ -33,8 +33,8 @@ async def fetch(browser, url):
         context = await browser.new_context()
         # Apply stealth plugin
         await stealth_async(context)
-        page = await context.new_page()
-        response = await page.goto(url, wait_until="networkidle", timeout=40000)
+        page = await context.new_page(ignore_https_errors=True)
+        response = await page.goto(url, wait_until="networkidle", timeout=60000)
         content = await page.content()
         await context.close()
 
@@ -75,7 +75,7 @@ async def main():
     # Add URLs to queue
     with open(input_filename, 'r') as f:
         urls = f.read().splitlines()
-        
+
     random.shuffle(urls)
     workers = []
 
