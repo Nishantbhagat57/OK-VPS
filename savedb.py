@@ -34,7 +34,7 @@ async def fetch(browser, url):
         # Apply stealth plugin
         await stealth_async(context)
         page = await context.new_page()
-        response = await page.goto(url, wait_until="networkidle", timeout=30000)
+        response = await page.goto(url, wait_until="networkidle", timeout=40000)
         content = await page.content()
         await context.close()
 
