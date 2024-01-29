@@ -11,7 +11,7 @@ from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
 
 # Maximum number of concurrent tasks
-CONCURRENT_TASKS = 20
+CONCURRENT_TASKS = 10
 
 # db setup
 rand_str = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
