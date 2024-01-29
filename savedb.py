@@ -30,10 +30,10 @@ queue = asyncio.Queue()
 
 async def fetch(browser, url):
     try:
-        context = await browser.new_context()
+        context = await browser.new_context(ignore_https_errors=True)
         # Apply stealth plugin
         await stealth_async(context)
-        page = await context.new_page(ignore_https_errors=True)
+        page = await context.new_page()
         response = await page.goto(url, wait_until="networkidle", timeout=60000)
         content = await page.content()
         await context.close()
