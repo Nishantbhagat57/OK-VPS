@@ -10,6 +10,9 @@ from urllib.parse import urlparse
 from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
 
+# Maximum number of concurrent tasks
+CONCURRENT_TASKS = 20
+
 # db setup
 rand_str = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
 DB_NAME = f'database_{rand_str}_{int(time.time())}.sqlite'  # change as needed
@@ -47,12 +50,8 @@ async def fetch(browser, url):
         print(f'Error in fetching: {url}')
         print(e)
 
-
-async def worker(browser):
-    while True:
-        url = await queue.get()
-        await fetch(browser, url)
-        queue.task_done()
+    # The fetch function is a producer and it informs the queue that the task is done
+    queue.task_done()
 
 
 async def main():
@@ -76,19 +75,35 @@ async def main():
     # Add URLs to queue
     with open(input_filename, 'r') as f:
         urls = f.read().splitlines()
-    for url in urls:
-        queue.put_nowait(url)
+
+    workers = []
 
     async with async_playwright() as p:
         browser = await p.chromium.launch()
-        # Create 10 worker tasks
-        worker_tasks = [asyncio.create_task(worker(browser)) for _ in range(20)]
-        # Wait for all URLs to be processed
-        await queue.join()
 
-        # Cancel worker tasks
-        for task in worker_tasks:
-            task.cancel()
+        # Create initial set of worker tasks
+        for _ in range(min(CONCURRENT_TASKS, len(urls))):
+            queue.put_nowait(urls.pop())
+            workers.append(asyncio.create_task(fetch(browser, await queue.get())))
+
+        while True:
+            # Wait for a worker to finish
+            done, pending = await asyncio.wait(workers, return_when=asyncio.FIRST_COMPLETED)
+
+            for task in done:
+                workers.remove(task)
+
+            # If there are still pending URLs, create more tasks
+            while urls and len(workers) < CONCURRENT_TASKS:
+                queue.put_nowait(urls.pop())
+                workers.append(asyncio.create_task(fetch(browser, await queue.get())))
+
+            # If no remaining URLs and all workers are done, break the loop
+            if not urls and not workers:
+                break
+
+        # Wait for remaining tasks to finish
+        await queue.join()
 
         # Shut down the browser
         await browser.close()
