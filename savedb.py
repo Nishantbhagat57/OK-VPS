@@ -75,7 +75,8 @@ async def main():
     # Add URLs to queue
     with open(input_filename, 'r') as f:
         urls = f.read().splitlines()
-
+        
+    random.shuffle(urls)
     workers = []
 
     async with async_playwright() as p:
