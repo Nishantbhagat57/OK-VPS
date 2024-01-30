@@ -29,6 +29,8 @@ queue = asyncio.Queue()
 
 
 async def fetch(browser, url):
+    # Introduce a random sleep here between 5 - 30 ms
+    await asyncio.sleep(random.randint(5, 30) / 1000.0)
     try:
         context = await browser.new_context(ignore_https_errors=True)
         # Apply stealth plugin
