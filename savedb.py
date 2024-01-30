@@ -11,7 +11,7 @@ from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
 
 # Maximum number of concurrent tasks
-CONCURRENT_TASKS = 5
+CONCURRENT_TASKS = 6
 
 # db setup
 rand_str = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
@@ -36,7 +36,7 @@ async def fetch(browser, url):
         # Apply stealth plugin
         await stealth_async(context)
         page = await context.new_page()
-        response = await page.goto(url, wait_until="networkidle", timeout=80000)
+        response = await page.goto(url, wait_until="domcontentloaded", timeout=80000)
         content = await page.content()
         await context.close()
 
@@ -82,7 +82,7 @@ async def main():
     workers = []
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch()
+        browser = await p.firefox.launch()
 
         # Create initial set of worker tasks
         for _ in range(min(CONCURRENT_TASKS, len(urls))):
