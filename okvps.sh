@@ -11,7 +11,7 @@ mkdir -p $HOME/BB/wordlist
 	
     	apt-get update -y > /dev/null 2>&1;
     	sudo apt update && sudo apt upgrade -y
-     	sudo apt install curl -y
+    	sudo apt install curl -y
 	sudo apt install wget > /dev/null 2>&1;
 	curl -fsSLo- https://s.id/golang-linux | bash
 
@@ -64,25 +64,25 @@ mkdir -p $HOME/BB/wordlist
    	pip3 install --upgrade requests
    	pip3 install parth
     	pip3 install sortedcontainers
-     	pip3 install slack_sdk
-      	pip3 install tree_sitter
-      	pip3 install selenium
-        pip3 install uddup
+    	pip3 install slack_sdk
+    	pip3 install tree_sitter
+    	pip3 install selenium
+    	pip3 install uddup
 	pip3 install Faker
   	pip3 install browsermob-proxy
    	pip3 install fake-useragent
     	pip3 install static-ffmpeg
-     	pip3 install selenium-recaptcha-solver
-      	pip3 install pytesseract
-       	pip3 install redmail
+    	pip3 install selenium-recaptcha-solver
+    	pip3 install pytesseract
+    	pip3 install redmail
 	pip3 install postleaksNg
  	pip3 install -U duckduckgo_search
   	pip3 install arjun
    	pip3 install chardet
     	pip3 install url-normalize
-     	pip3 install fuzzywuzzy
-      	pip3 install pandas
-       	pip3 install python-Levenshtein
+    	pip3 install fuzzywuzzy
+    	pip3 install pandas
+    	pip3 install python-Levenshtein
 	pip3 install datasketch
  	pip3 install pygtrie
   	pip3 install scikit-learn
@@ -122,6 +122,7 @@ mkdir -p $HOME/BB/wordlist
 	go install github.com/hakluke/haklistgen@latest
 	sudo cp $HOME/go/bin/haklistgen /usr/local/bin
 	sudo pip3 install dnsgen
+	pip3 install dnsgen
 	
 	go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 	sudo cp $HOME/go/bin/nuclei /usr/local/bin
@@ -201,17 +202,17 @@ mkdir -p $HOME/BB/wordlist
     	go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
     	sudo cp $HOME/go/bin/dnsx /usr/local/bin
 
-     	go install github.com/tomnomnom/waybackurls@latest
-     	sudo cp $HOME/go/bin/waybackurls /usr/local/bin
+    	go install github.com/tomnomnom/waybackurls@latest
+    	sudo cp $HOME/go/bin/waybackurls /usr/local/bin
       	
-       	go install ktbs.dev/mubeng/cmd/mubeng@latest
+    	go install ktbs.dev/mubeng/cmd/mubeng@latest
 	sudo cp $HOME/go/bin/mubeng /usr/local/bin
 
  	go install github.com/dwisiswant0/gfx@latest
   	sudo cp $HOME/go/bin/gfx /usr/local/bin
 
    	go install github.com/projectdiscovery/katana/cmd/katana@latest
-      	sudo cp $HOME/go/bin/katana /usr/local/bin
+    	sudo cp $HOME/go/bin/katana /usr/local/bin
 
 	go install github.com/jsageryd/urlquery@latest
  	sudo cp $HOME/go/bin/urlquery /usr/local/bin
@@ -238,7 +239,9 @@ mkdir -p $HOME/BB/wordlist
 	cd dnsvalidator
 	sudo pip3 install -r requirements.txt
 	sudo python3 setup.py install
-	
+	pip3 install -r requirements.txt
+	python3 setup.py install
+
 	cd $HOME
 	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 	source $HOME/.cargo/env
@@ -260,7 +263,8 @@ mkdir -p $HOME/BB/wordlist
 	git clone https://github.com/SpiderLabs/HostHunter.git
 	cd HostHunter
 	sudo pip3 install -r requirements.txt
-
+	pip3 install -r requirements.txt
+	
 	cd $HOME/BB
 	cargo install ripgen
 	
@@ -268,17 +272,21 @@ mkdir -p $HOME/BB/wordlist
 	git clone https://github.com/shmilylty/OneForAll.git
 	cd OneForAll/
 	sudo python3 -m pip install -U pip setuptools wheel
+	python3 -m pip install -U pip setuptools wheel
 	sudo pip3 install -r requirements.txt
-	
+	pip3 install -r requirements.txt
+
 	cd $HOME/BB
 	git clone https://github.com/dariusztytko/vhosts-sieve.git
 	sudo pip3 install -r vhosts-sieve/requirements.txt
+	pip3 install -r vhosts-sieve/requirements.txt
 	
 	cd $HOME/BB
 	git clone https://github.com/punk-security/dnsReaper.git
 	cd dnsReaper
 	sudo pip3 install -r requirements.txt
-	
+	pip3 install -r requirements.txt
+
 	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/SubDomz.git
 	cd SubDomz 
@@ -304,7 +312,7 @@ mkdir -p $HOME/BB/wordlist
    	pip3 install aiosqlite
     	pip3 install pyppeteer
     	pip3 install uvloop
-     	pip3 install git+https://github.com/xnl-h4ck3r/knoxnl.git
+    	pip3 install git+https://github.com/xnl-h4ck3r/knoxnl.git
      
 	cd $HOME/BB
 	git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
@@ -314,6 +322,7 @@ mkdir -p $HOME/BB/wordlist
  	pip3 install --upgrade setuptools pip --break-system-packages
 	sudo pip3 install --upgrade setuptools pip --break-system-packages
  	sudo python3 setup.py install
+	python3 setup.py install
 		
 	cd $HOME
 	pip3 install gdown
@@ -359,20 +368,20 @@ mkdir -p $HOME/BB/wordlist
   	git clone https://github.com/ameenmaali/urldedupe.git
    	cd urldedupe
     	cmake CMakeLists.txt
-     	make
+    	make
 
 	cd $HOME/BB
    	pip3 install pyyaml
     	pip3 install termcolor
-     	pip3 install git+https://github.com/xnl-h4ck3r/urless.git
+    	pip3 install git+https://github.com/xnl-h4ck3r/urless.git
 
    	cd $HOME/BB
     	git clone https://github.com/1ndianl33t/Gf-Patterns
-     	mkdir ~/.gf
-      	mv Gf-Patterns/*.json ~/.gf
+    	mkdir ~/.gf
+    	mv Gf-Patterns/*.json ~/.gf
 	
  	cd $HOME/BB
-        git clone https://github.com/rarecoil/unwebpack-sourcemap.git
+    	git clone https://github.com/rarecoil/unwebpack-sourcemap.git
 	sudo chmod 777 $HOME/BB/unwebpack-sourcemap/*
 	
  	cd $HOME/BB
@@ -405,37 +414,37 @@ mkdir -p $HOME/BB/wordlist
 
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/hbsqli.json -O $HOME/.axiom/modules/hbsqli.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dnsreaper.json -O $HOME/.axiom/modules/dnsreaper.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffuf_postprocess.json -O $HOME/.axiom/modules/ffufpp.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufapi.json -O $HOME/.axiom/modules/ffufapi.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun1.json -O $HOME/.axiom/modules/arjun1.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffuf_postprocess.json -O $HOME/.axiom/modules/ffufpp.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufapi.json -O $HOME/.axiom/modules/ffufapi.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun1.json -O $HOME/.axiom/modules/arjun1.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun2.json -O $HOME/.axiom/modules/arjun2.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun3.json -O $HOME/.axiom/modules/arjun3.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/arjun4.json -O $HOME/.axiom/modules/arjun4.json
-       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/acunetix.json -O $HOME/.axiom/modules/acunetix.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/acunetix.json -O $HOME/.axiom/modules/acunetix.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/getjs.json -O $HOME/.axiom/modules/getjs.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ppfuzz.json -O $HOME/.axiom/modules/ppfuzz.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8.json -O $HOME/.axiom/modules/x8.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ghauri.json -O $HOME/.axiom/modules/ghauri.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xnlinkfinder1.json -O $HOME/.axiom/modules/xn1.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xnlinkfinder2.json -O $HOME/.axiom/modules/xn2.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xnlinkfinder2.json -O $HOME/.axiom/modules/xn2.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/requify.json -O $HOME/.axiom/modules/requify.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/paramspider1.json -O $HOME/.axiom/modules/paramspider1.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mubeng.json -O $HOME/.axiom/modules/mubeng.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_jsurls.json -O $HOME/.axiom/modules/linkfinderjs.json
-       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_domain.json -O $HOME/.axiom/modules/linkfinderd.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/paramspider1.json -O $HOME/.axiom/modules/paramspider1.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/mubeng.json -O $HOME/.axiom/modules/mubeng.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_jsurls.json -O $HOME/.axiom/modules/linkfinderjs.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_domain.json -O $HOME/.axiom/modules/linkfinderd.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/heaptruffle.json -O $HOME/.axiom/modules/heaptruffle.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom.json -O $HOME/.axiom/modules/x8_custom.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/403bypass.json -O $HOME/.axiom/modules/403bypass.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/chameleon.json -O $HOME/.axiom/modules/chameleon.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/http2smugl.json -O $HOME/.axiom/modules/http2smugl.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/certgraph_http.json -O $HOME/.axiom/modules/certgraph_http.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/certgraph_crt.json -O $HOME/.axiom/modules/certgraph_crt.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/sstimap.json -O $HOME/.axiom/modules/sstimap.json
-       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/subzy.json -O $HOME/.axiom/modules/subzy.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/cloudrecon.json -O $HOME/.axiom/modules/cloudrecon.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bxss.json -O $HOME/.axiom/modules/bxss.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/katana1.json -O $HOME/.axiom/modules/katana1.json
-       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/httpx1.json -O $HOME/.axiom/modules/httpx1.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/certgraph_http.json -O $HOME/.axiom/modules/certgraph_http.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/certgraph_crt.json -O $HOME/.axiom/modules/certgraph_crt.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/sstimap.json -O $HOME/.axiom/modules/sstimap.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/subzy.json -O $HOME/.axiom/modules/subzy.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/cloudrecon.json -O $HOME/.axiom/modules/cloudrecon.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bxss.json -O $HOME/.axiom/modules/bxss.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/katana1.json -O $HOME/.axiom/modules/katana1.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/httpx1.json -O $HOME/.axiom/modules/httpx1.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dnsresolver.json -O $HOME/.axiom/modules/dnsresolver.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/massdns1.json -O $HOME/.axiom/modules/massdns1.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dalfox1.json -O $HOME/.axiom/modules/dalfox1.json
@@ -444,8 +453,8 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp1.json -O $HOME/.axiom/modules/ffufpp1.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/uniqueurls.json -O $HOME/.axiom/modules/uniqueurls.json
    
-      	sudo chmod 777 $HOME/.axiom/modules/*
-     	cd $HOME/BB
+    	sudo chmod 777 $HOME/.axiom/modules/*
+    	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/jsleaks.git
 	cd jsleaks
 	unzip assets.zip
@@ -457,7 +466,7 @@ mkdir -p $HOME/BB/wordlist
     	sudo chmod 777 *
 
  	cd $HOME/BB
-     	git clone https://github.com/devanshbatham/heaptruffle
+    	git clone https://github.com/devanshbatham/heaptruffle
  	cd $HOME/BB/heaptruffle
   	sudo chmod 777 *
 	sudo docker build -t heaptruffle .
@@ -471,14 +480,14 @@ mkdir -p $HOME/BB/wordlist
    	git clone https://github.com/r0oth3x49/ghauri.git
     	cd $HOME/BB/ghauri
     	python3 -m pip install --upgrade -r requirements.txt
-     	python3 -m pip install -e .
+    	python3 -m pip install -e .
   
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
    	sudo chmod 777 $HOME/BB/*/*/*
     	sudo chmod 777 $HOME/BB/*/*/*/*
      
-     	sudo apt install snapd
+    	sudo apt install snapd
 	sudo snap install core
  	sudo snap install ark
 	
