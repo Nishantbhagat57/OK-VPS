@@ -1,5 +1,5 @@
 [{
-	"command":"python3 /home/op/recon/OpenRedireX/openredirex.py -l input --keyword FUZZ -p /home/op/recon/OpenRedireX/payloads.txt | tee -a output",
+	"command":"cat input | python3 /home/op/recon/OpenRedireX/openredirex.py -k \"FUZZ\" -c 20 -p /home/op/recon/OpenRedireX/payloads.txt | tee -a output",
 	"ext":"txt",
 	"threads":"10"
 }]
