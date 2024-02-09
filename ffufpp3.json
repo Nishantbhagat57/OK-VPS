@@ -1,0 +1,5 @@
+[{
+  "command":"cat input | rush -k -j 20 'xyz=$(echo \"{}\" | unfurl domains) && ffuf -sf -t 40 -fc 404 -maxtime 7200 -rate 300 -v -timeout 20 -H \"User-Agent: Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/117.0\" -w _wordlist_ -u \"{}/FUZZ\" -o $xyz.json -od $xyz -of json ; if [ -f $xyz.json ]; then ffufPostprocessing -result-file $xyz.json -bodies-folder $xyz -delete-bodies -overwrite-result-file && cat $xyz.json | tee -a output ; sudo rm $xyz.json ; sudo rm -r $xyz ; fi'",
+  "wordlist":"/home/op/lists/seclists/Discovery/Web-Content/big.txt",
+  "ext":"txt"
+}]
