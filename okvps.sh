@@ -453,6 +453,7 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffuflfi2.json -O $HOME/.axiom/modules/ffuflfi2.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp1.json -O $HOME/.axiom/modules/ffufpp1.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp2.json -O $HOME/.axiom/modules/ffufpp2.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp3.json -O $HOME/.axiom/modules/ffufpp3.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/uniqueurls.json -O $HOME/.axiom/modules/uniqueurls.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom2.json -O $HOME/.axiom/modules/x8_custom2.json
     	
