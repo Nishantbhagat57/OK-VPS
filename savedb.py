@@ -28,15 +28,16 @@ conn.commit()
 queue = asyncio.Queue()
 
 
-async def fetch(browser, url):
+async def fetch(browser, queue):
+    url = await queue.get()  # fetch URL from queue here
     # Introduce a random sleep here between 5 - 30 ms
     await asyncio.sleep(random.randint(5, 30) / 1000.0)
     try:
         context = await browser.new_context(ignore_https_errors=True)
         # Apply stealth plugin
-        await stealth_async(context)
+        await stealth_async(context) 
         page = await context.new_page()
-        response = await page.goto(url, wait_until="domcontentloaded", timeout=80000)
+        response = await page.goto(url, wait_until="networkidle", timeout=80000)
         content = await page.content()
         await context.close()
 
@@ -54,7 +55,6 @@ async def fetch(browser, url):
 
     # The fetch function is a producer and it informs the queue that the task is done
     queue.task_done()
-
 
 async def main():
     # Check CLI arguments
@@ -86,8 +86,8 @@ async def main():
 
         # Create initial set of worker tasks
         for _ in range(min(CONCURRENT_TASKS, len(urls))):
-            queue.put_nowait(urls.pop())
-            workers.append(asyncio.create_task(fetch(browser, await queue.get())))
+            queue.put_nowait(urls.pop())   # enqueue URL here
+            workers.append(asyncio.create_task(fetch(browser, queue)))  # fetch it in the worker
 
         while True:
             # Wait for a worker to finish
@@ -98,8 +98,8 @@ async def main():
 
             # If there are still pending URLs, create more tasks
             while urls and len(workers) < CONCURRENT_TASKS:
-                queue.put_nowait(urls.pop())
-                workers.append(asyncio.create_task(fetch(browser, await queue.get())))
+                queue.put_nowait(urls.pop())  # enqueue URL here
+                workers.append(asyncio.create_task(fetch(browser, queue)))  # fetch it in the worker
 
             # If no remaining URLs and all workers are done, break the loop
             if not urls and not workers:
@@ -113,7 +113,6 @@ async def main():
 
     # move the DB to the output directory
     os.rename(DB_NAME, f'{output_directory}/{DB_NAME}')
-
 
 if __name__ == '__main__':
     asyncio.run(main())
