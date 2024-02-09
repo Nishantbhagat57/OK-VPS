@@ -35,6 +35,7 @@ mkdir -p $HOME/BB/wordlist
    	brew install ffmpeg
     	brew install gitleaks
      	brew install rsync
+      	brew install nss ca-certificates
   
 	apt-get install unzip > /dev/null 2>&1;
 	apt install curl -y > /dev/null 2>&1;
