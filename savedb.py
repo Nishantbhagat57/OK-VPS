@@ -5,10 +5,19 @@ import sqlite3
 import string
 import sys
 import time
-from urllib.parse import urlparse
-
 from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
+import socket
+from urllib.parse import urlparse
+
+def get_domain(url: str) -> str:
+    try:
+        # separate the domain from port (if present)
+        domain = urlparse(url).netloc.split(":")[0]
+        socket.inet_aton(domain)
+        return domain  # return IP if url is formatted as IP:PORT
+    except socket.error:
+        return urlparse(url).netloc  # return the original domain if not in valid IP format.
 
 # Maximum number of concurrent tasks
 CONCURRENT_TASKS = 6
@@ -43,7 +52,7 @@ async def fetch(browser, queue):
 
         status = response.status
         content_length = len(content)
-        domain = urlparse(url).netloc
+        domain = get_domain(url)
         values = (domain, url, status, content_length, content)
         db.execute('''INSERT INTO url_info(domain, url, status, content_length, content)
         VALUES(?,?,?,?,?)''', values)
