@@ -237,9 +237,6 @@ mkdir -p $HOME/BB/wordlist
   	go install github.com/c3l3si4n/quickcert@HEAD
 	sudo cp $HOME/go/bin/quickcert /usr/local/bin
 
-  	go install github.com/BishopFox/jsluice/cmd/jsluice@latest
-   	sudo cp $HOME/go/bin/jsluice /usr/local/bin
-
 	npm install -g @llllvvuu/dl-webapp-sources
     
   	cd $HOME/BB
