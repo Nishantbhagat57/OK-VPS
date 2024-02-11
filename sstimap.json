@@ -1,5 +1,5 @@
 [{
-	"command":"python3 /home/op/SSTImap/sstimap.py --load-urls input --random-user-agent --forms --level 3 --output output",
+	"command":"python3 /home/op/SSTImap/sstimap.py --load-urls input --random-user-agent --forms --level 3 --crawl 2 --output output",
 	"ext":"txt",
 	"threads":"20"
 }]
