@@ -22,7 +22,24 @@ mkdir -p $HOME/BB/wordlist
 	brew doctor
 	brew install gcc
  	brew install git
-  	brew install python3
+
+	brew rm python
+	brew uninstall --ignore-dependencies python
+	rm -rf /usr/local/opt/python
+	brew cleanup
+	brew rm python
+	brew rm python3
+	rm -rf /usr/local/opt/python
+	rm -rf /usr/local/opt/python3
+	brew prune
+	brew cleanup
+	brew install python@3.11
+	brew postinstall python@3.11
+	python3 -m pip uninstall pip
+	sudo python3 -m pip uninstall pip
+	python3 -m ensurepip
+	python3 -m pip install --upgrade pip
+   
 	brew install cmake
  	brew install proxychains-ng
   	brew install node
@@ -47,7 +64,7 @@ mkdir -p $HOME/BB/wordlist
 	apt install snapd -y > /dev/null 2>&1;
 	apt install python3-pip -y > /dev/null 2>&1;
  	sudo apt-get install expect -y
-	sudo apt-get install python3-venv -y
+	#sudo apt-get install python3-venv -y
 	sudo apt install -y snapd
 	sudo apt-get install -y parallel
 	sudo rm /etc/parallel/config
