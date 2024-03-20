@@ -35,6 +35,8 @@ mkdir -p $HOME/BB/wordlist
 	brew cleanup
 	brew install python@3.11
 	brew postinstall python@3.11
+	export PATH="$(brew --prefix)/opt/python@3.11/libexec/bin:$PATH"
+
 	python3 -m pip uninstall pip
 	sudo python3 -m pip uninstall pip
 	python3 -m ensurepip
