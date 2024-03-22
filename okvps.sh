@@ -113,6 +113,7 @@ mkdir -p $HOME/BB/wordlist
     	pip3 install pandas
      	pip3 install aiofile
       	pip3 install pybloom-live
+       	pip3 install pybloomfiltermmap3
  
    	sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
 	curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
