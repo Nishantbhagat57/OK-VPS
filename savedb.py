@@ -91,7 +91,14 @@ async def main():
     workers = []
 
     async with async_playwright() as p:
-        browser = await p.firefox.launch()
+        # Select the desired browser
+        browser_type = p.firefox
+
+        # Define the launch arguments
+        browser_type_launch_args = {"firefox_user_prefs": {"security.enterprise_roots.enabled": True}}
+
+        # Launch the browser with the specified arguments
+        browser = await browser_type.launch(**browser_type_launch_args)
 
         # Create initial set of worker tasks
         for _ in range(min(CONCURRENT_TASKS, len(urls))):
