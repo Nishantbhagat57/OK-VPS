@@ -43,7 +43,7 @@ mkdir -p $HOME/BB/wordlist
 	python3 -m pip install --upgrade pip
    
 	brew install cmake
- 	brew install proxychains-ng
+ 	#brew install proxychains-ng
   	brew install node
    	brew install python-tk
     	brew install jadx
@@ -55,7 +55,15 @@ mkdir -p $HOME/BB/wordlist
     	brew install gitleaks
      	brew install rsync
       	brew install nss ca-certificates
-  
+       
+       	cd $HOME/BB
+	git clone https://github.com/rofl0r/proxychains-ng
+ 	cd proxychains-ng
+	./configure --prefix=/usr --sysconfdir=/etc
+	sudo make install
+	sudo make install-config
+
+   	cd $HOME/BB
 	apt-get install unzip > /dev/null 2>&1;
 	apt install curl -y > /dev/null 2>&1;
 	pip3 install colored  > /dev/null 2>&1;
