@@ -23,7 +23,7 @@ mkdir -p $HOME/BB/wordlist
 	brew install gcc
  	brew install git
 
-	brew rm python
+	brew rm python --ignore-dependencies
 	brew uninstall --ignore-dependencies python
 	rm -rf /usr/local/opt/python
 	brew cleanup
