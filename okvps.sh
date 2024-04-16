@@ -36,7 +36,16 @@ mkdir -p $HOME/BB/wordlist
 	brew install python@3.11
 	brew postinstall python@3.11
 	export PATH="$(brew --prefix)/opt/python@3.11/libexec/bin:$PATH"
-	brew install gcc
+
+  	cd /home/linuxbrew/.linuxbrew/bin
+	ln -s ../Cellar/python@3.11/3.11.9/bin/python3.11 python3
+	ln -s ../Cellar/python@3.11/3.11.9/bin/pip3.11 pip3
+	ln -s ../Cellar/python@3.11/3.11.9/bin/pydoc3.11 pydoc3
+	ln -s ../Cellar/python@3.11/3.11.9/bin/python3.11-config python3-config
+	ln -s ../Cellar/python@3.11/3.11.9/bin/wheel3.11 wheel
+	ln -s ../Cellar/python@3.11/3.11.9/bin/2to3-3.11 2to3
+
+ 	brew install gcc
  	brew install git
   
 	#python3 -m pip uninstall pip
