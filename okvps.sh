@@ -66,6 +66,21 @@ mkdir -p $HOME/BB/wordlist
     	brew install gitleaks
      	brew install rsync
       	brew install nss ca-certificates
+
+	cd /home/linuxbrew/.linuxbrew/bin
+	rm python3
+	rm pip3
+	rm pydoc3
+	rm python3-config
+	rm wheel
+	rm 2to3
+ 
+	ln -s ../Cellar/python@3.11/3.11.9/bin/python3.11 python3
+	ln -s ../Cellar/python@3.11/3.11.9/bin/pip3.11 pip3
+	ln -s ../Cellar/python@3.11/3.11.9/bin/pydoc3.11 pydoc3
+	ln -s ../Cellar/python@3.11/3.11.9/bin/python3.11-config python3-config
+	ln -s ../Cellar/python@3.11/3.11.9/bin/wheel3.11 wheel
+	ln -s ../Cellar/python@3.11/3.11.9/bin/2to3-3.11 2to3
        
        	cd $HOME/BB
 	git clone https://github.com/rofl0r/proxychains-ng
