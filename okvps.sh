@@ -68,6 +68,7 @@ mkdir -p $HOME/BB/wordlist
       	brew install nss ca-certificates
 
 	cd /home/linuxbrew/.linuxbrew/bin
+ 	sudo chmod 777 *
 	rm python3
 	rm pip3
 	rm pydoc3
