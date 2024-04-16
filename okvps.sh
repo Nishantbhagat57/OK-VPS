@@ -23,22 +23,24 @@ mkdir -p $HOME/BB/wordlist
 	brew install gcc
  	brew install git
 
-	brew rm python --ignore-dependencies
 	brew uninstall --ignore-dependencies python
-	rm -rf /usr/local/opt/python
+ 	brew uninstall --ignore-dependencies python3
+	#rm -rf /usr/local/opt/python
 	brew cleanup
 	brew rm python
 	brew rm python3
-	rm -rf /usr/local/opt/python
-	rm -rf /usr/local/opt/python3
+	#rm -rf /usr/local/opt/python
+	#rm -rf /usr/local/opt/python3
 	brew prune
 	brew cleanup
 	brew install python@3.11
 	brew postinstall python@3.11
 	export PATH="$(brew --prefix)/opt/python@3.11/libexec/bin:$PATH"
-
-	python3 -m pip uninstall pip
-	sudo python3 -m pip uninstall pip
+	brew install gcc
+ 	brew install git
+  
+	#python3 -m pip uninstall pip
+	#sudo python3 -m pip uninstall pip
 	python3 -m ensurepip
 	python3 -m pip install --upgrade pip
    
