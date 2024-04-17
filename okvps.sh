@@ -74,7 +74,7 @@ mkdir -p $HOME/BB/wordlist
 	#brew install glibc
 	#brew install gcc
 	#brew install gawk file-formula
-	#brew install ruby
+	brew install ruby
 	#brew install openssl
 	brew upgrade ruby
 	sudo apt-get install pkg-config
