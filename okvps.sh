@@ -68,14 +68,14 @@ mkdir -p $HOME/BB/wordlist
       	brew install nss ca-certificates
 
 	sudo apt install build-essential zlib1g-dev -y
-	sudo apt remove openssl -y
-	sudo apt purge openssl -y
+	#sudo apt remove openssl -y
+	#sudo apt purge openssl -y
 	sudo apt install -y ca-certificates --reinstall
-	brew install glibc
-	brew install gcc
-	brew install gawk file-formula
-	brew install ruby
-	brew install openssl
+	#brew install glibc
+	#brew install gcc
+	#brew install gawk file-formula
+	#brew install ruby
+	#brew install openssl
 	brew upgrade ruby
 	sudo apt-get install pkg-config
 
