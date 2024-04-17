@@ -66,6 +66,7 @@ mkdir -p $HOME/BB/wordlist
     	brew install gitleaks
      	brew install rsync
       	brew install nss ca-certificates
+        brew install gawk file-formula
 
 	cd /home/linuxbrew/.linuxbrew/bin
  	sudo chmod 777 *
