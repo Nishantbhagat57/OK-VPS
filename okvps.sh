@@ -66,7 +66,18 @@ mkdir -p $HOME/BB/wordlist
     	brew install gitleaks
      	brew install rsync
       	brew install nss ca-certificates
-        brew install gawk file-formula
+
+	sudo apt install build-essential zlib1g-dev -y
+	sudo apt remove openssl -y
+	sudo apt purge openssl -y
+	sudo apt install -y ca-certificates --reinstall
+	brew install glibc
+	brew install gcc
+	brew install gawk file-formula
+	brew install ruby
+	brew install openssl
+	brew upgrade ruby
+	sudo apt-get install pkg-config
 
 	cd /home/linuxbrew/.linuxbrew/bin
  	sudo chmod 777 *
