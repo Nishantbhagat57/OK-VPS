@@ -394,8 +394,8 @@ mkdir -p $HOME/BB/wordlist
     	pip3 install git+https://github.com/xnl-h4ck3r/knoxnl.git
      
 	cd $HOME/BB
-	git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
-	cd xnLinkFinder
+	pip3 install git+https://github.com/xnl-h4ck3r/xnLinkFinder.git -v
+
  	sudo pip3 install argparse requests psutil pyyaml termcolor urlparse3 beautifulsoup4 lxml html5lib urllib3 --break-system-packages
 	pip3 install argparse requests psutil pyyaml termcolor urlparse3 beautifulsoup4 lxml html5lib urllib3 --break-system-packages
  	pip3 install --upgrade setuptools pip --break-system-packages
