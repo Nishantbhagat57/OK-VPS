@@ -1,0 +1,4 @@
+[{
+	"command":"waymore -mode U -i input --output-urls output",
+	"ext":"txt"
+}]
