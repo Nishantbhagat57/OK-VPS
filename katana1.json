@@ -1,5 +1,5 @@
 [{
     "command":"/home/op/go/bin/katana -silent -list input | tee -a output",
     "ext":"txt",
-    "threads":"10"
+    "threads":"2"
 }]
