@@ -44,7 +44,8 @@ mkdir -p $HOME/BB/wordlist
 	ln -s ../Cellar/python@3.11/3.11.9/bin/python3.11-config python3-config
 	ln -s ../Cellar/python@3.11/3.11.9/bin/wheel3.11 wheel
 	ln -s ../Cellar/python@3.11/3.11.9/bin/2to3-3.11 2to3
-
+	
+ 	brew install python-tk@3.11
  	brew install gcc
  	brew install git
   
