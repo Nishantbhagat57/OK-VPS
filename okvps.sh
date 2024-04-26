@@ -314,6 +314,7 @@ mkdir -p $HOME/BB/wordlist
 	sudo cp $HOME/go/bin/quickcert /usr/local/bin
 
 	npm install -g @llllvvuu/dl-webapp-sources
+ 	npm install webcrack --global
     
   	cd $HOME/BB
  	git clone https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner.git
