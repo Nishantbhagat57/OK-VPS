@@ -1,5 +1,5 @@
 [{
-	"command":"arjun -i input -w /home/op/recon/arjuncustomwl.txt -t 10 -T 20 -oT output",
+	"command":"arjun -i input -w /home/op/recon/arjuncustomwl.txt -t 12 -T 50 -c 50 -oT output",
 	"ext":"txt",
-  	"threads":"60"
+  	"threads":"10"
 }]
