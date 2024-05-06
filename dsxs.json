@@ -1,4 +1,4 @@
 [{
-	"command":"python3 /home/op/recon/DSXS/dsxs.py -u _target_ -o _output_/_cleantarget_",
+	"command":"python3 /home/op/recon/DSXS/dsxs.py --file input | tee -a output",
 	"ext":"txt"
 }]
