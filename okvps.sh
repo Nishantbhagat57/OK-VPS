@@ -546,7 +546,8 @@ mkdir -p $HOME/BB/wordlist
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp6.json -O $HOME/.axiom/modules/ffufpp6.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/uniqueurls.json -O $HOME/.axiom/modules/uniqueurls.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom2.json -O $HOME/.axiom/modules/x8_custom2.json
-    	
+	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dsxs.json -O $HOME/.axiom/modules/dsxs.json
+     
     	sudo chmod 777 $HOME/.axiom/modules/*
     	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/jsleaks.git
