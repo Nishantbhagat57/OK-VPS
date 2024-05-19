@@ -576,6 +576,9 @@ mkdir -p $HOME/BB/wordlist
     	cd $HOME/BB/ghauri
     	python3 -m pip install --upgrade -r requirements.txt
     	python3 -m pip install -e .
+
+ 	cd $HOME/BB
+	git clone https://github.com/maliciousgroup/getdirs.git
   
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
