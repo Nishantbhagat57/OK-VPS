@@ -544,6 +544,11 @@ mkdir -p $HOME/BB/wordlist
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp4.json -O $HOME/.axiom/modules/ffufpp4.json
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp5.json -O $HOME/.axiom/modules/ffufpp5.json
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp6.json -O $HOME/.axiom/modules/ffufpp6.json
+	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp7.json -O $HOME/.axiom/modules/ffufpp7.json
+	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp8.json -O $HOME/.axiom/modules/ffufpp8.json
+	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp9.json -O $HOME/.axiom/modules/ffufpp9.json
+	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp10.json -O $HOME/.axiom/modules/ffufpp10.json
+	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp11.json -O $HOME/.axiom/modules/ffufpp11.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/uniqueurls.json -O $HOME/.axiom/modules/uniqueurls.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom2.json -O $HOME/.axiom/modules/x8_custom2.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dsxs.json -O $HOME/.axiom/modules/dsxs.json
