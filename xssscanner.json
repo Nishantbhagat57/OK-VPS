@@ -1,0 +1,4 @@
+[{
+	"command":"node /home/op/recon/xssScanner/xssScanner.js -i input -p /home/op/recon/xssScanner/xsspayloads.txt >> output",
+	"ext":"txt"
+}]
