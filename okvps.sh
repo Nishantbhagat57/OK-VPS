@@ -553,6 +553,7 @@ mkdir -p $HOME/BB/wordlist
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom2.json -O $HOME/.axiom/modules/x8_custom2.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dsxs.json -O $HOME/.axiom/modules/dsxs.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/blc1.json -O $HOME/.axiom/modules/blc1.json
+  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xssscanner.json -O $HOME/.axiom/modules/xssscanner.json
      
     	sudo chmod 777 $HOME/.axiom/modules/*
     	cd $HOME/BB
