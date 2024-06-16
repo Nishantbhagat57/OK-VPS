@@ -1,0 +1,4 @@
+[{
+	"command":"cd output && python3 /home/op/vhost/vhostfind.py -ip input -dns /home/op/vhost/dns.txt -temp /home/op/vhost/json",
+	"ext":"dir"
+}]
