@@ -529,6 +529,7 @@ mkdir -p $HOME/BB/wordlist
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/certgraph_crt.json -O $HOME/.axiom/modules/certgraph_crt.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/sstimap.json -O $HOME/.axiom/modules/sstimap.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/subzy.json -O $HOME/.axiom/modules/subzy.json
+     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dnstake.json -O $HOME/.axiom/modules/dnstake.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/cloudrecon.json -O $HOME/.axiom/modules/cloudrecon.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bxss.json -O $HOME/.axiom/modules/bxss.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/katana1.json -O $HOME/.axiom/modules/katana1.json
