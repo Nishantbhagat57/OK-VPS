@@ -1,0 +1,4 @@
+[{
+	"command":"dnstake --silent -t input -o output",
+	"ext":"txt"
+}]
