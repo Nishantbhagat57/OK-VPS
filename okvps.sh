@@ -556,6 +556,7 @@ mkdir -p $HOME/BB/wordlist
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/blc1.json -O $HOME/.axiom/modules/blc1.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xssscanner.json -O $HOME/.axiom/modules/xssscanner.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/vhostfind.json -O $HOME/.axiom/modules/vhostfind.json
+    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bbotsub.json -O $HOME/.axiom/modules/bbotsub.json
      
     	sudo chmod 777 $HOME/.axiom/modules/*
     	cd $HOME/BB
