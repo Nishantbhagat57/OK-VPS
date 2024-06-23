@@ -1,5 +1,4 @@
 [{
 	"command":"/home/op/./bbot_subenum.sh input | tee -a output",
-	"ext":"txt",
-  	"threads":"8"
+	"ext":"txt"
 }]
