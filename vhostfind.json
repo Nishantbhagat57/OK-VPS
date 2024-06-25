@@ -1,4 +1,4 @@
 [{
-	"command":"cat input | python3 /home/op/vhost/vhostfind.py -dns /home/op/vhost/dns.txt -temp /home/op/vhost/json -dbfolder output",
+	"command":"cat input | python3 /home/op/vhost/vhostfind.py -dns /home/op/vhost/dns.txt -temp $(mktemp -d /home/op/XXXX_json) -dbfolder output",
 	"ext":"dir"
 }]
