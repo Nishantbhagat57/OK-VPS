@@ -1,0 +1,64 @@
+id: parked-domain-check
+info:
+  name: Detect parked domains 
+  author: puzzlepeaches 
+  severity: medium
+  description: Checks if a domain is parked based on specific keywords and reports the matched content.
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+    headers:
+      User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      Accept-Encoding: "gzip"
+      Accept-Language: "en-US"
+      Accept: "text/html,application/xml,application/xhtml+xml"
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - "buy this domain"
+          - "parked free"
+          - "godaddy"
+          - "is for sale"
+          - "domain parking"
+          - "renew now"
+          - "this domain"
+          - "namecheap"
+          - "buy now for"
+          - "hugedomains"
+          - "is owned and listed by"
+          - "sav.com"
+          - "searchvity.com"
+          - "domain for sale"
+          - "register4less"
+          - "aplus.net"
+          - "related searches"
+          - "related links"
+          - "search ads"
+          - "domain expert"
+          - "united domains"
+          - "domian name has been registered"
+          - "this domain may be for sale"
+          - "domain name is available for sale"
+          - "premium domain"
+          - "this domain name"
+          - "this domain has expired"
+          - "domainpage.io"
+          - "sedoparking.com"
+          - "parking-lander"
+        condition: or
+        part: body
+
+      - type: status
+        status:
+          - 200
+
+    extractors:
+      - type: regex
+        part: body
+        regex:
+          - "buy this domain|parked free|godaddy|is for sale|domain parking|renew now|this domain|namecheap|buy now for|hugedomains|is owned and listed by|sav.com|searchvity.com|domain for sale|register4less|aplus.net|related searches|related links|search ads|domain expert|united domains|domian name has been registered|this domain may be for sale|domain name is available for sale|premium domain|this domain name|this domain has expired|domainpage.io|sedoparking.com|parking-lander"
+        name: "matched_on"
+        group: 0
