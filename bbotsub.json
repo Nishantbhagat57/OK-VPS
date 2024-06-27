@@ -1,4 +1,4 @@
 [{
-	"command":"/home/op/./bbot_subenum.sh input | tee -a output",
+	"command":"bbot -t input -f subdomain-enum --force --ignore-failed-deps --yes | tee -a output",
 	"ext":"txt"
 }]
