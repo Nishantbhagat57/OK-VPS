@@ -8,7 +8,7 @@ single_mode="false"
 
 function ctrlc() {
     echo -e "${Blue}Cleaning up SSH connections before exiting...${Color_Off}"
-        PIDS=$(ps aux | awk '/-p2266 -o StrictHostKeyChecking=no -D/ && /-R 8085:127.0.0.1:8085 -N -f/' | grep -v awk | awk '{ print $2 }')
+        PIDS=$(ps aux | awk '/-p2266 -o StrictHostKeyChecking=no -D/ && /-R 8086:127.0.0.1:8086 -N -f/' | grep -v awk | awk '{ print $2 }')
         for LINE in $PIDS
         do
              kill -9 $LINE
@@ -46,7 +46,7 @@ do
     append=$(printf "%02d" "$i")
     port="60$append"
     
-    axiom-ssh $instance -p2266 -o StrictHostKeyChecking=no -D $port -R 8085:127.0.0.1:8085 -N -f 2>&1 >>/dev/null &
+    axiom-ssh $instance -p2266 -o StrictHostKeyChecking=no -D $port -R 8086:127.0.0.1:8086 -N -f 2>&1 >>/dev/null &
     echo -e "${BWhite}Proxy listener started on $port for $instance...${Color_Off}"
     [[ "$single_mode" == "true" ]] && echo -e "\tserver $ip 127.0.0.1:$port" >> "$tmp/haproxy.cfg"
     echo "socks5 127.0.0.1 $port" >>proxychains.conf
