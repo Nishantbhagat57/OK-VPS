@@ -557,8 +557,13 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xssscanner.json -O $HOME/.axiom/modules/xssscanner.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/vhostfind.json -O $HOME/.axiom/modules/vhostfind.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bbotsub.json -O $HOME/.axiom/modules/bbotsub.json
-     
+     	sudo rm $HOME/.axiom/interact/axiom-exec
+      	sudo rm $HOME/.axiom/interact/axiom-scan
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec -O $HOME/.axiom/interact/axiom-exec
+  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-scan -O $HOME/.axiom/interact/axiom-scan
+      
     	sudo chmod 777 $HOME/.axiom/modules/*
+     	sudo chmod 777 $HOME/.axiom/interact/*
     	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/jsleaks.git
 	cd jsleaks
