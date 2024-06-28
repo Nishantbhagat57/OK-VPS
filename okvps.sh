@@ -380,6 +380,12 @@ mkdir -p $HOME/BB/wordlist
 	chmod +x install.sh SubDomz
 	./install.sh
 
+	cd $HOME/BB
+	git clone https://github.com/fyoorer/ShadowClone.git
+	cd ShadowClone
+	pip3 install -r requirements.txt
+ 	pip3 install lithops
+
  	cd $HOME/BB
   	mkdir dorker
    	cd $HOME/BB/dorker
