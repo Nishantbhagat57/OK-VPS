@@ -385,6 +385,7 @@ mkdir -p $HOME/BB/wordlist
 	cd ShadowClone
 	pip3 install -r requirements.txt
  	pip3 install lithops
+  	brew install awscli
 
  	cd $HOME/BB
   	mkdir dorker
