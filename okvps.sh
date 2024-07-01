@@ -315,6 +315,9 @@ mkdir -p $HOME/BB/wordlist
   	go install github.com/c3l3si4n/quickcert@HEAD
 	sudo cp $HOME/go/bin/quickcert /usr/local/bin
 
+ 	go install github.com/hakluke/haktrails@latest
+  	sudo cp $HOME/go/bin/haktrails /usr/local/bin
+
 	npm install -g @llllvvuu/dl-webapp-sources
  	npm install webcrack --global
     
