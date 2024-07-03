@@ -1,4 +1,4 @@
 [{
-	"command":"mkdir -p /home/op/vhparts ; cd /home/op/vhparts ; split -n l/20 input part_ ; ls part_* | rush -k -j 20 'cat {} | python3 /home/op/vhost/vhostfind.py -dns /home/op/vhost/dns.txt -temp $(mktemp -d /home/op/XXXX_json) -dbfolder output'",
+	"command":"split -n l/20 input part_ ; ls part_* | rush -k -j 20 'cat {} | python3 /home/op/vhost/vhostfind.py -dns /home/op/vhost/dns.txt -temp $(mktemp -d /home/op/XXXX_json) -dbfolder output'",
 	"ext":"dir"
 }]
