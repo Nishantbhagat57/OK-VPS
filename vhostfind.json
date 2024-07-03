@@ -1,4 +1,4 @@
 [{
-	"command":"split -n l/10 input part_ ; ls part_* | rush -j 10 'cat {} | python3 /home/op/vhost/vhostfind.py -dns /home/op/vhost/dns.txt -temp $(mktemp -d /home/op/XXXX_json) -dbfolder output'",
+	"command":"split -n l/10 input part_ ; ls part_* | rush -j 10 'RC=$(cat /dev/urandom | tr -dc \"a-zA-Z0-9\" | fold -w 5 | head -n 1) && cat {} >> output/$RC.txt'",
 	"ext":"dir"
 }]
