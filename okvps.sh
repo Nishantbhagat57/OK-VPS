@@ -574,10 +574,13 @@ mkdir -p $HOME/BB/wordlist
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec -O $HOME/.axiom/interact/axiom-exec
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-scan -O $HOME/.axiom/interact/axiom-scan
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-proxy1 -O $HOME/.axiom/interact/axiom-proxy1
+    	
       
     	sudo chmod 777 $HOME/.axiom/modules/*
      	sudo chmod 777 $HOME/.axiom/interact/*
-    	cd $HOME/BB
+      	sudo chmod 777 $HOME/.axiom/*
+    	
+     	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/jsleaks.git
 	cd jsleaks
 	unzip assets.zip
