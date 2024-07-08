@@ -713,14 +713,10 @@ fi
 # Shorten the module name
 shorten_module_name() {
     local module="$1"
-    if [ "${#module}" -gt 5 ]; then
-        local first3="${module:0:3}"
-        local last_char="${module: -1}"
-        local random_char=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 2 | head -n 1)
-        echo "${first3}${random_char}${last_char}"
-    else
-        echo "$module"
-    fi
+    local first3="${module:0:3}"
+    local last_char="${module: -1}"
+    local random_char=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 2 | head -n 1)
+    echo "${first3}${random_char}${last_char}"
 }
 short_module_name=$(shorten_module_name "$module")
 
