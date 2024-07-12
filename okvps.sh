@@ -637,3 +637,5 @@ mkdir -p $HOME/BB/wordlist
  	export TMPDIR=/tmp
   	subfinder
    	echo "SUCCESSFULLY DONE OKVPS"
+
+    	brew install awscli
