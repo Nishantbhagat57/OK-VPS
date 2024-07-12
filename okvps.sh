@@ -601,6 +601,10 @@ mkdir -p $HOME/BB/wordlist
    	pip3 install cytoolz
     	sudo chmod 777 *
 
+	cd $HOME/BB
+     	https://github.com/rootcathacking/catspin.git
+	sudo chmod 777 *
+ 
  	cd $HOME/BB
     	git clone https://github.com/devanshbatham/heaptruffle
  	cd $HOME/BB/heaptruffle
