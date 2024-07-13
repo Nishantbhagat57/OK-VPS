@@ -1,5 +1,5 @@
 [{
-	"command":"python3 /home/op/xnLinkFinder/xnLinkFinder/xnlinkfinder_direct.py -i input -o cli -do | tee output",
+	"command":"python3 /home/op/xnLinkFinder/xnLinkFinder/xnlinkfinder_direct.py -i input -o output -do",
 	"ext":"txt",
   	"threads":"10"
 }]
