@@ -78,6 +78,7 @@ mkdir -p $HOME/BB/wordlist
 	brew install ruby
 	#brew install openssl
 	brew upgrade ruby
+ 	brew install xclip
 	sudo apt-get install pkg-config
 
 	cd /home/linuxbrew/.linuxbrew/bin
