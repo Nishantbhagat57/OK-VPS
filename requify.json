@@ -1,4 +1,4 @@
 [{
-	"command":"node /home/op/recon/requify/requify.js input output /home/op/recon/urlswithforms.txt; cp -r output /home/op/recon/requify/result",
+	"command":"Xvfb :99 -screen 0 1920x1080x24 & sleep 2; DISPLAY=:99 node /home/op/recon/requify/requify.js input output /home/op/recon/urlswithforms.txt; cp -r output /home/op/recon/requify/result",
 	"ext":"dir"
 }]
