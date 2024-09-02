@@ -433,6 +433,7 @@ mkdir -p $HOME/BB/wordlist
 	pip3 install gdown
 	pip3 install wafw00f
  	pip3 install uro
+  	pip3 install PySocks
 	
 	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/OPleaks.git
