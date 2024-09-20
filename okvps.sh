@@ -653,6 +653,11 @@ mkdir -p $HOME/BB/wordlist
 
  	cd $HOME/BB
 	git clone https://github.com/maliciousgroup/getdirs.git
+
+  	cd $HOME/BB
+   	git clone https://github.com/codingo/Interlace.git
+    	cd Interlace
+     	python3 setup.py install
   
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
