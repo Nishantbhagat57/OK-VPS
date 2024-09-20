@@ -877,3 +877,6 @@ mkdir -p $HOME/BB/wordlist
 	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
 	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
 	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+
+ 	bbot -t evilcorp.com -p subdomain-enum
+	
