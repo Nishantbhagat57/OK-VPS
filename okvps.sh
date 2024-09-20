@@ -804,3 +804,30 @@ mkdir -p $HOME/BB/wordlist
 	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
 	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
 	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+
+    	pip3 install bbot
+    	bbot --help --ignore-failed-deps
+
+  	cd /home/linuxbrew/.linuxbrew/bin
+	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+
+	cd /usr/bin
+	sudo chmod 777 *
+	rm python3
+	rm pip3
+	rm pydoc3
+	rm python3-config
+	rm wheel
+	rm 2to3
+	
+	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
