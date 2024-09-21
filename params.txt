@@ -12784,6 +12784,7 @@ CompSeason
 compStatus
 comptype
 compType
+computeMetadata
 compute
 Compute
 computer
@@ -25237,6 +25238,7 @@ frame_id
 frameid
 frameId
 framename
+frame_name
 frame-nonce
 framepath
 framePath
@@ -73312,13 +73314,16 @@ timetohighlight
 timeUnit
 timeupdateinterval
 time_year
-timezone
+Timezone
 timeZone
 TimeZone
+timezone
+time_zone
 timezonedetection
 timezone_id
 timezoneoffset
 timezoneOffset
+TimezoneOffset
 timezone_string
 timicat1
 timicat2
