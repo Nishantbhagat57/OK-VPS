@@ -534,7 +534,7 @@ mkdir -p $HOME/BB/wordlist
  	cd $HOME/BB
   	mkdir dorker
    	cd $HOME/BB/dorker
-    	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha puppeteer-extra-plugin-minmax request-promise-core node-fetch fs url async puppeteer-extra-plugin-stealth unirest cheerio base-64 utf8 base64url request-promise request request-promise-native path fs string-similarity axios copy-paste --save
+    	npm install axios puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha puppeteer-extra-plugin-minmax request-promise-core node-fetch fs url sqlite3 async puppeteer-extra-plugin-stealth unirest cheerio base-64 utf8 base64url request-promise request request-promise-native path fs string-similarity axios copy-paste --save
 	npm audit fix --force
   	sudo chmod 777 *
 
