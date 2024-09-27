@@ -48691,6 +48691,9 @@ omx
 omy
 omz
 on
+onexit
+onExit
+on_exit
 ON
 ona
 onair
