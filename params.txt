@@ -1,3 +1,7 @@
+screenview_id
+client_ts
+url_text
+is_logged_in
 _
 __
 ~
