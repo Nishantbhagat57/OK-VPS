@@ -1,3 +1,15 @@
+redirectOnSuccess
+redirecton
+_redirecton
+redirectOn
+redirectOnSuccess
+redirectonsuccess
+_redirectOnSuccess
+_redirectonsuccess
+voucherCode
+vouchercode
+voucher_code
+_vouchercode
 isAvailable
 isavailable
 _isavailable
