@@ -517,7 +517,7 @@ mkdir -p $HOME/BB/wordlist
 	cd $HOME/BB
 	git clone https://github.com/Nishantbhagat57/SubDomz.git
 	cd SubDomz 
-	chmod +x install.sh SubDomz
+	sudo chmod 777 SubDomz
 	./install.sh
 
 	cd $HOME/BB
