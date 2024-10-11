@@ -518,6 +518,8 @@ mkdir -p $HOME/BB/wordlist
 	git clone https://github.com/Nishantbhagat57/SubDomz.git
 	cd SubDomz 
 	sudo chmod 777 SubDomz
+ 	dos2unix *.sh
+  	dos2unix */*.sh
 	./install.sh
 
 	cd $HOME/BB
