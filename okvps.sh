@@ -266,6 +266,9 @@ mkdir -p $HOME/BB/wordlist
        	pip3 install cython
        	pip3 install pybloomfiltermmap3
 	pip3 install hfinder
+	pip3 install requirements-parser
+	pip3 install pyfiglet
+	pip3 install python-whois
  	pip3 install playwright
  	pip3 install playwright-stealth
   	playwright install
