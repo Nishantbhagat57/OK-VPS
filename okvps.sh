@@ -754,6 +754,10 @@ mkdir -p $HOME/BB/wordlist
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/vhostfind.json -O $HOME/.axiom/modules/vhostfind.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bbotsub.json -O $HOME/.axiom/modules/bbotsub.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextA.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextB.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextC.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextD.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextE.json
      	sudo rm $HOME/.axiom/interact/axiom-exec
       	sudo rm $HOME/.axiom/interact/axiom-scan
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec -O $HOME/.axiom/interact/axiom-exec
