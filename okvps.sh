@@ -753,7 +753,7 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/xssscanner.json -O $HOME/.axiom/modules/xssscanner.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/vhostfind.json -O $HOME/.axiom/modules/vhostfind.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bbotsub.json -O $HOME/.axiom/modules/bbotsub.json
-     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextsingle.json -O $HOME/.axiom/modules/ffufextsingle.json
+     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextA.json
      	sudo rm $HOME/.axiom/interact/axiom-exec
       	sudo rm $HOME/.axiom/interact/axiom-scan
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec -O $HOME/.axiom/interact/axiom-exec
