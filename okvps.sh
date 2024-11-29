@@ -708,6 +708,8 @@ mkdir -p $HOME/BB/wordlist
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/linkfinder_domain.json -O $HOME/.axiom/modules/linkfinderd.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/heaptruffle.json -O $HOME/.axiom/modules/heaptruffle.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom.json -O $HOME/.axiom/modules/x8_custom.json
+  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_f1.json -O $HOME/.axiom/modules/x8_f1.json
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_f2.json -O $HOME/.axiom/modules/x8_f2.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/403bypass.json -O $HOME/.axiom/modules/403bypass.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/chameleon.json -O $HOME/.axiom/modules/chameleon.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/http2smugl.json -O $HOME/.axiom/modules/http2smugl.json
