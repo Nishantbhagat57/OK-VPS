@@ -742,6 +742,7 @@ mkdir -p $HOME/BB/wordlist
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp9.json -O $HOME/.axiom/modules/ffufpp9.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp10.json -O $HOME/.axiom/modules/ffufpp10.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ffufpp11.json -O $HOME/.axiom/modules/ffufpp11.json
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/httpxss.json -O $HOME/.axiom/modules/httpxss.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/uniqueurls.json -O $HOME/.axiom/modules/uniqueurls.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/x8_custom2.json -O $HOME/.axiom/modules/x8_custom2.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/dsxs.json -O $HOME/.axiom/modules/dsxs.json
