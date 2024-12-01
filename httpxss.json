@@ -1,4 +1,4 @@
 [{
-	"command":"Xvfb -ac :99 -screen 0 1920x1080x24 & export DISPLAY=:99; node /home/op/recon/httpxss/httpxss.js -i input -o output",
+	"command":"Xvfb -ac :99 -screen 0 1920x1080x24 & export DISPLAY=:99; node /home/op/recon/httpxss/httpxss.js input -o output",
 	"ext":"dir"
 }]
