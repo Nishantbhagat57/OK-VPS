@@ -261,6 +261,8 @@ mkdir -p $HOME/BB/wordlist
 	pip3 install requirements-parser
 	pip3 install pyfiglet
 	pip3 install python-whois
+ 	pip3 install flask
+  	pip3 install Flask-Cors
  	pip3 install playwright
  	pip3 install playwright-stealth
   	playwright install
