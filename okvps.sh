@@ -751,10 +751,10 @@ mkdir -p $HOME/BB/wordlist
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/vhostfind.json -O $HOME/.axiom/modules/vhostfind.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bbotsub.json -O $HOME/.axiom/modules/bbotsub.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextA.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextB.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextC.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextD.json
-      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextA.json -O $HOME/.axiom/modules/ffufextE.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextB.json -O $HOME/.axiom/modules/ffufextB.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextC.json -O $HOME/.axiom/modules/ffufextC.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextD.json -O $HOME/.axiom/modules/ffufextD.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextE.json -O $HOME/.axiom/modules/ffufextE.json
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextF.json -O $HOME/.axiom/modules/ffufextF.json
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextG.json -O $HOME/.axiom/modules/ffufextG.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextH.json -O $HOME/.axiom/modules/ffufextH.json
