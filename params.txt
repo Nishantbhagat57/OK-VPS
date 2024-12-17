@@ -1,3 +1,17 @@
+resendurl
+_resendUrl
+_resendurl
+resendUrl
+ResendUrl
+midToken
+parentPageKey
+pageInstance
+controlId
+session_redirect
+trk
+authUUID
+encrypted_session_key
+loginFlow
 redirectOnSuccess
 redirecton
 _redirecton
