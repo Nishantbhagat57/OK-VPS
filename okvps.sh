@@ -44,12 +44,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -58,12 +58,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
  	brew install python-tk@3.11
  	brew install gcc
@@ -108,12 +108,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -122,12 +122,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
        	brew install antlr
 
@@ -138,12 +138,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -152,12 +152,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
        
        	cd $HOME/BB
 	git clone https://github.com/rofl0r/proxychains-ng
@@ -196,12 +196,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -210,12 +210,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 
 	pip3 install requests beautifulsoup4
@@ -277,12 +277,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -291,12 +291,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
  
  
  
@@ -312,11 +312,11 @@ mkdir -p $HOME/BB/wordlist
 
 	#MassDNS
 	echo -e ${BLUE}"[DNS RESOLVER]" ${RED}"MassDNS installation in progress ...";
-	su root -c "cd /root/OK-VPS/tools && git clone https://github.com/blechschmidt/massdns.git > /dev/null 2>&1 && cd massdns && make && make install > /dev/null 2>&1 && ln -s /root/OK-VPS/tools/massdns/bin/massdns /usr/local/bin/;"
+	su root -c "cd /root/OK-VPS/tools && git clone https://github.com/blechschmidt/massdns.git > /dev/null 2>&1 && cd massdns && make && make install > /dev/null 2>&1 && sudo ln -s /root/OK-VPS/tools/massdns/bin/massdns /usr/local/bin/;"
 	echo -e ${BLUE}"[DNS RESOLVER]" ${GREEN}"MassDNS installation is done !"; echo "";
 	#PureDNS
 	echo -e ${BLUE}"[DNS RESOLVER]" ${RED}"PureDNS installation in progress ...";
-	GO111MODULE=on go install github.com/d3mondev/puredns/v2@latest > /dev/null 2>&1 && ln -s ~/go/bin/puredns /usr/local/bin;
+	GO111MODULE=on go install github.com/d3mondev/puredns/v2@latest > /dev/null 2>&1 && sudo ln -s ~/go/bin/puredns /usr/local/bin;
 	echo -e ${BLUE}"[DNS RESOLVER]" ${GREEN}"PureDNS installation is done !"; echo "";
 	
 	cd $HOME/BB
@@ -546,12 +546,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -560,12 +560,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
  
  
   
@@ -832,12 +832,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -846,12 +846,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
  
 
     	pip3 install bbot
@@ -865,12 +865,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s ../Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
 	cd /usr/bin
 	sudo rm python3
@@ -879,12 +879,12 @@ mkdir -p $HOME/BB/wordlist
 	sudo rm python3-config
 	sudo rm wheel
 	sudo rm 2to3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
-	ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11 python3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pip3.11 pip3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/pydoc3.11 pydoc3
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
+	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
  
 
  	bbot -t evilcorp.com -p subdomain-enum
