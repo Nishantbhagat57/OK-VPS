@@ -1,0 +1,5 @@
+[{
+	"command":"cat input | while IFS= read -r url; do Xvfb -ac :99 -screen 0 1920x1080x24 & export DISPLAY=:99; node /home/op/dorker/bing.js \"site:$url php aspx asp js json jsp jspa ? =\" output; done",
+	"ext":"txt",
+	"threads":"4"
+}]
