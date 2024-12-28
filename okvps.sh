@@ -267,6 +267,7 @@ mkdir -p $HOME/BB/wordlist
  	pip3 install playwright-stealth
   	playwright install
    	pip3 install bbot
+	pip3 install cryptg
     	bbot --help --ignore-failed-deps
 
 
