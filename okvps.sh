@@ -130,6 +130,7 @@ mkdir -p $HOME/BB/wordlist
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
        	brew install antlr
+	brew install azure-cli
 
   	cd /home/linuxbrew/.linuxbrew/bin
 	sudo rm python3
