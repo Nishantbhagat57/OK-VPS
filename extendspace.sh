@@ -1,24 +1,46 @@
 #!/bin/bash
 
-# Ensure the scripts aborts if a command fails
-sudo set -e
+# Exit immediately if a command exits with a non-zero status
+set -e
 
-# Unmount the /dev/sdb1 if it's already mounted
+# Unmount /dev/sdb1 if mounted
 sudo umount /dev/sdb1 || true
 
-# Wipe the filesystem of /dev/sdb1
-sudo wipefs -a /dev/sdb1
+# Install LVM2 if not installed
+sudo apt-get update
+sudo apt-get install -y lvm2
 
-# Check and create a physical volume
-sudo pvcreate /dev/sdb1
+# Create physical volumes
+sudo pvcreate /dev/sda1 /dev/sdb1
 
-# Assuming your existing volume group is called vg0, add the new PV
-sudo vgextend vg0 /dev/sdb1
+# Create a volume group named 'vg0'
+sudo vgcreate vg0 /dev/sda1 /dev/sdb1
 
-# Extend the logical volume that your root filesystem is on
-sudo lvextend -l +100%FREE /dev/mapper/vg0-root
+# Create a logical volume named 'rootfs' with all available space
+sudo lvcreate -l 100%FREE -n rootfs vg0
 
-# Resize the filesystem to use the new space
-sudo resize2fs /dev/mapper/vg0-root
+# Format the new logical volume with ext4 filesystem
+sudo mkfs.ext4 /dev/vg0/rootfs
 
-echo "Successfully extended the root filesystem"
+# Mount the new logical volume temporarily
+sudo mount /dev/vg0/rootfs /mnt
+
+# Backup existing data from the current root to the new logical volume
+sudo rsync -aAXv / /mnt --exclude=/mnt --exclude=/proc --exclude=/sys --exclude=/dev --exclude=/run --exclude=/tmp
+
+# Prepare for the switch
+for dir in /dev /dev/pts /proc /sys /run; do
+  sudo mount --bind $dir /mnt/$dir
+done
+
+# Ensure the new root volume is mounted for boot
+echo '/dev/vg0/rootfs / ext4 defaults 0 1' | sudo tee -a /mnt/etc/fstab
+
+# Install bootloader on the new setup
+sudo chroot /mnt grub-install /dev/sda
+sudo chroot /mnt update-grub
+
+# Unmount filesystems
+for dir in /run /dev/pts /dev /proc /sys; do
+  sudo umount /mnt/$dir
+done
