@@ -129,6 +129,8 @@ mkdir -p $HOME/BB/wordlist
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
 
+	sudo bash -c "echo '* - nofile 10240' >> /etc/security/limits.conf"
+ 
        	brew install antlr
 	brew install azure-cli
 
