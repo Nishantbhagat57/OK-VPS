@@ -771,7 +771,7 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-scan -O $HOME/.axiom/interact/axiom-scan
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-proxy1 -O $HOME/.axiom/interact/axiom-proxy1
     	
-      
+      	sudo chmod 777 -R $HOME/.axiom
     	sudo chmod 777 $HOME/.axiom/modules/*
      	sudo chmod 777 $HOME/.axiom/interact/*
       	sudo chmod 777 $HOME/.axiom/*
