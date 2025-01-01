@@ -933,6 +933,7 @@ echo -e "${BGreen}creating scan working directory at ${Color_Off}${Blue}: /home/
 rawcommand="$(parse_module "$module" "$ext" | jq -r '.command')"
 if ([[ "$rawcommand" =~ "_target_" ]] || [[ "$rawcommand" =~  "_safe-target_" ]] || [[ "$ext" ==  "" ]] || [[ "$ext" == "dir" ]]) && [[ "$disable_oneshot" != "true" ]]; then
     $interlace_cmd_nobar -c "$ssh_command _target_ 'mkdir -p $scan_dir/output'" >/dev/null 2>&1
+    $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo chmod -R 777 $scan_dir'" >/dev/null 2>&1
 else
 
 ###########################################################################################################
