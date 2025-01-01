@@ -87,6 +87,7 @@ mkdir -p $HOME/BB/wordlist
     	brew install gitleaks
      	brew install rsync
       	brew install nss ca-certificates
+       	brew install ripgrep
 
 	sudo apt install build-essential zlib1g-dev -y
 	#sudo apt remove openssl -y
