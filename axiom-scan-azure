@@ -932,7 +932,7 @@ fi
 echo -e "${BGreen}creating scan working directory at ${Color_Off}${Blue}: /home/op/scan/$uid/${Color_Off}"
 rawcommand="$(parse_module "$module" "$ext" | jq -r '.command')"
 if ([[ "$rawcommand" =~ "_target_" ]] || [[ "$rawcommand" =~  "_safe-target_" ]] || [[ "$ext" ==  "" ]] || [[ "$ext" == "dir" ]]) && [[ "$disable_oneshot" != "true" ]]; then
-    $interlace_cmd_nobar -c "$ssh_command _target_ 'mkdir -p $scan_dir/output'" >/dev/null 2>&1
+    $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo mkdir -p $scan_dir/output'" >/dev/null 2>&1
     $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo chmod -R 777 $scan_dir'" >/dev/null 2>&1
 else
 
@@ -940,7 +940,7 @@ else
 #  If a Simple Module is used:
 #  Prep all the axiom instances by making a unique scan directory with SSH exec
 #
-    $interlace_cmd_nobar -c "$ssh_command _target_ 'mkdir -p $scan_dir'" >/dev/null 2>&1
+    $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo mkdir -p $scan_dir'" >/dev/null 2>&1
     $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo chmod -R 777 $scan_dir'" >/dev/null 2>&1
 fi
 
