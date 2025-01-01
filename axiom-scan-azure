@@ -941,6 +941,7 @@ else
 #  Prep all the axiom instances by making a unique scan directory with SSH exec
 #
     $interlace_cmd_nobar -c "$ssh_command _target_ 'mkdir -p $scan_dir'" >/dev/null 2>&1
+    $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo chmod -R 777 $scan_dir'" >/dev/null 2>&1
 fi
 
 ###########################################################################################################
@@ -1266,3 +1267,4 @@ wait $tailPID 2>/dev/null
 wait $downloaderPID 2>/dev/null
 stty sane
 tput init
+
