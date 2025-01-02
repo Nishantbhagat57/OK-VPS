@@ -768,8 +768,8 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bingdork.json -O $HOME/.axiom/modules/bingdork.json
      	sudo rm $HOME/.axiom/interact/axiom-exec
       	sudo rm $HOME/.axiom/interact/axiom-scan
- 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec -O $HOME/.axiom/interact/axiom-exec
-  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-scan -O $HOME/.axiom/interact/axiom-scan
+ 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec-az -O $HOME/.axiom/interact/axiom-exec
+  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-scan-az -O $HOME/.axiom/interact/axiom-scan
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-proxy1 -O $HOME/.axiom/interact/axiom-proxy1
     	
       	sudo chmod 777 -R $HOME/.axiom
