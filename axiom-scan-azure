@@ -1240,8 +1240,9 @@ fi
 #  Prep all the axiom instances by making a unique scan working directory and output directory (mkdir -p $scan_dir/output)
 #
 echo -e "${BGreen}creating scan working directory at${Color_Off}: [ ${BBlue}/home/op/scan/$uid/${Color_Off} ${Color_Off}]${BGreen} | ${Color_Off}"
-    $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo mkdir -p $scan_dir/output'" >/dev/null 2>&1
-    $interlace_cmd_nobar -c "$ssh_command _target_ 'sudo chmod -R 777 $scan_dir'" >/dev/null 2>&1
+if ([[ "$rawcommand" =~ "_target_" ]] || [[ "$rawcommand" =~  "_safe-target_" ]] || [[ "$ext" ==  "" ]] || [[ "$ext" == "dir" ]]) && [[ "$disable_oneshot" != "true" ]]; then
+    $interlace_cmd_nobar -c "$ssh_command _target_ ' sudo mkdir -p $scan_dir/output'" >/dev/null 2>&1
+    $interlace_cmd_nobar -c "$ssh_command _target_ ' sudo chmod -R 777 $scan_dir'" >/dev/null 2>&1
 else
 
 ###########################################################################################################
