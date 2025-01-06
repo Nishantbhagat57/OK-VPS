@@ -518,7 +518,7 @@ mkdir -p $HOME/BB/wordlist
 	pip3 install -r requirements.txt
 
 	cd $HOME/BB
-	git clone https://github.com/Nishantbhagat57/SubDomz.git
+	git clone https://github.com/0xPugal/SubDomz.git
 	cd SubDomz 
 	sudo chmod 777 SubDomz
  	dos2unix *.sh
