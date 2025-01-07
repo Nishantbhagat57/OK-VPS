@@ -1,0 +1,5 @@
+[{
+	"command":"Xvfb -ac :99 -screen 0 1920x1080x24 & export DISPLAY=:99; node /home/op/recon/xssScanner/xssScanner.js -i input -p /home/op/recon/xssScanner/xsspayloads.txt -o output",
+	"ext":"txt",
+	"threads":"12"
+}]
