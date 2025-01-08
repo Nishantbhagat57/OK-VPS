@@ -88,7 +88,7 @@ mkdir -p $HOME/BB/wordlist
      	brew install rsync
       	brew install nss ca-certificates
        	brew install ripgrep
-	brew install docker
+	#brew install docker
 
 	sudo apt install build-essential zlib1g-dev -y
 	#sudo apt remove openssl -y
