@@ -415,7 +415,7 @@ mkdir -p $HOME/BB/wordlist
   	go install github.com/tomnomnom/qsreplace@latest
    	sudo cp $HOME/go/bin/qsreplace /usr/local/bin
     
-    	go install github.com/Damian89/ffufPostprocessing@master
+    	go install github.com/dsecuredcom/ffufPostprocessing@master
   	sudo cp $HOME/go/bin/ffufPostprocessing /usr/local/bin
    
    	go install github.com/shenwei356/rush@latest
