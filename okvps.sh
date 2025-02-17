@@ -379,7 +379,7 @@ mkdir -p $HOME/BB/wordlist
 	go install github.com/jaeles-project/gospider@latest
 	sudo cp $HOME/go/bin/gospider /usr/local/bin
 
-	go install github.com/tomnomnom/unfurl@latest
+	go install github.com/Nishantbhagat57/unfurl@latest
 	sudo cp $HOME/go/bin/unfurl /usr/local/bin
 	
 	go install github.com/OJ/gobuster/v3@latest
