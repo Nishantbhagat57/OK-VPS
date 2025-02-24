@@ -460,6 +460,9 @@ mkdir -p $HOME/BB/wordlist
     	go install github.com/Nishantbhagat57/durl2@latest
 	sudo cp $HOME/go/bin/durl2 /usr/local/bin
 
+ 	go install github.com/Ademking/domains@latest
+  	sudo cp $HOME/go/bin/domains /usr/local/bin
+ 
 	npm install -g @llllvvuu/dl-webapp-sources
  	npm install webcrack --global
     
