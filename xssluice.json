@@ -1,4 +1,4 @@
 [{
-	"command":"/home/op/recon/xssluice/scripts/executer_caller_plan1.sh input 2>&1 | tee -a output",
+	"command":"/home/op/recon/xssluice/scripts/./executer_caller_plan1.sh input 2>&1 | tee -a output",
 	"ext":"txt",
 }]
