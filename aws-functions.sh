@@ -25,8 +25,8 @@ create_instance() {
         return 1
     fi
 
-    # Create a block device mapping for an 80GB EBS volume
-    block_device_mapping='[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":80,"VolumeType":"gp3","DeleteOnTermination":true}}]'
+    # Create a block device mapping for an 120GB EBS volume
+    block_device_mapping='[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":120,"VolumeType":"gp3","DeleteOnTermination":true}}]'
 
     # Launch the instance using the determined security group option and block device mapping
     aws ec2 run-instances \
@@ -488,8 +488,8 @@ create_instances() {
         return 1
     fi
 
-    # Create a block device mapping for an 80GB EBS volume
-    block_device_mapping='[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":80,"VolumeType":"gp3","DeleteOnTermination":true}}]'
+    # Create a block device mapping for an 120GB EBS volume
+    block_device_mapping='[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":120,"VolumeType":"gp3","DeleteOnTermination":true}}]'
 
     count="${#names[@]}"
 
