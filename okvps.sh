@@ -772,6 +772,7 @@ mkdir -p $HOME/BB/wordlist
 	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextG.json -O $HOME/.axiom/modules/ffufextG.json
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/refs/heads/main/text/ffufextH.json -O $HOME/.axiom/modules/ffufextH.json
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bingdork.json -O $HOME/.axiom/modules/bingdork.json
+   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ddgs.json -O $HOME/.axiom/modules/ddgs.json
      	sudo rm $HOME/.axiom/interact/axiom-exec
       	sudo rm $HOME/.axiom/interact/axiom-scan
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec-ax -O $HOME/.axiom/interact/axiom-exec
