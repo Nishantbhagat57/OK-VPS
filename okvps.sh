@@ -13,7 +13,13 @@ mkdir -p $HOME/BB/wordlist
     	sudo apt update && sudo apt upgrade -y
     	sudo apt install curl -y
 	sudo apt install wget > /dev/null 2>&1;
+ 
 	curl -fsSLo- https://s.id/golang-linux | bash
+	sed -i '/export GOROOT=/d; /export GOPATH=/d; /export PATH=.*GOROOT.*GOPATH/d' ~/.bashrc
+	echo 'export GOROOT="$HOME/go"
+	export GOPATH="$HOME/go/packages"
+	export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc
+ 	source ~/.bashrc
 
 	cd $HOME/BB
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
