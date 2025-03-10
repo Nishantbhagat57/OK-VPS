@@ -828,7 +828,7 @@ mkdir -p $HOME/BB/wordlist
   	cd $HOME/BB
    	git clone https://github.com/codingo/Interlace.git
     	cd Interlace
-     	python3 setup.py install
+     	python3 setup.py install --user
   
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
