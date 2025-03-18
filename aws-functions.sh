@@ -372,7 +372,7 @@ reboot() {
 # axiom-power axiom-images
 instance_id() {
 	name="$1"
-	instances | jq -r ".Reservations[].Instances[] | select(.State.Name != \"terminated\") | select(.Tags?[]? | select(.Key == \"Name\" and .Value == \"$name\")) | .InstanceId"
+	instances | jq -r ".Reservations[].Instances[] | select(.State.Name != \"terminated\") | select(.Tags?[]?.Value==\"$name\") | .InstanceId"
 }
 
 ###################################################################
