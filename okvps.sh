@@ -14,12 +14,22 @@ mkdir -p $HOME/BB/wordlist
     	sudo apt install curl -y
 	sudo apt install wget > /dev/null 2>&1;
  
-	curl -fsSLo- https://s.id/golang-linux | bash
-	sed -i '/export GOROOT=/d; /export GOPATH=/d; /export PATH=.*GOROOT.*GOPATH/d' ~/.bashrc
-	echo 'export GOROOT="$HOME/go"
-	export GOPATH="$HOME/go/packages"
-	export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc
- 	source ~/.bashrc
+	#curl -fsSLo- https://s.id/golang-linux | bash
+	#sed -i '/export GOROOT=/d; /export GOPATH=/d; /export PATH=.*GOROOT.*GOPATH/d' ~/.bashrc
+	#echo 'export GOROOT="$HOME/go"
+	#export GOPATH="$HOME/go/packages"
+	#export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc
+	#source ~/.bashrc
+	
+	sudo rm -rf /usr/local/go
+	sudo rm -rf ~/go/pkg
+	wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz
+	sudo tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz
+	
+	echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
+	echo 'export GOPATH=$HOME/go' >> ~/.bashrc
+	echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc
+	source ~/.bashrc
 
 	cd $HOME/BB
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
