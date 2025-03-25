@@ -1,0 +1,5 @@
+[{
+	"command":"xnLinkFinder -i input -o output -do",
+	"ext":"txt",
+  "threads":"8"
+}]
