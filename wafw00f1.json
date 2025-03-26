@@ -1,0 +1,4 @@
+[{
+	"command":"wafw00f -i input -o output",
+	"ext":"txt"
+}]
