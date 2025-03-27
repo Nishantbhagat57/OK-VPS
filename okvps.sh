@@ -13,6 +13,8 @@ mkdir -p $HOME/BB/wordlist
     	sudo apt update && sudo apt upgrade -y
     	sudo apt install curl -y
 	sudo apt install wget > /dev/null 2>&1;
+ 	sudo mkdir -p /usr/local/bin
+	sudo chown $USER /usr/local/bin
  
 	#curl -fsSLo- https://s.id/golang-linux | bash
 	#sed -i '/export GOROOT=/d; /export GOPATH=/d; /export PATH=.*GOROOT.*GOPATH/d' ~/.bashrc
