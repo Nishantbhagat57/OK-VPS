@@ -1,0 +1,5 @@
+[{
+	"command":"python3 /home/op/HExHTTP/hexhttp.py --file input --user-agent 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.6834.210 Safari/537.36' --threads 20 --behavior 2>&1 | tee -a output",
+	"ext":"txt",
+  "threads":"4"
+}]
