@@ -798,6 +798,7 @@ mkdir -p $HOME/BB/wordlist
   	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bingdork.json -O $HOME/.axiom/modules/bingdork.json
    	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/ddgs.json -O $HOME/.axiom/modules/ddgs.json
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bingnode.json -O $HOME/.axiom/modules/bingnode.json
+     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/hexhttp.json -O $HOME/.axiom/modules/hexhttp.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/wafw00f1.json -O $HOME/.axiom/modules/wafw00f1.json
      	sudo rm $HOME/.axiom/interact/axiom-exec
       	sudo rm $HOME/.axiom/interact/axiom-scan
