@@ -355,6 +355,9 @@ mkdir -p $HOME/BB/wordlist
 	go install github.com/lc/subjs@latest
 	sudo cp $HOME/go/bin/subjs /usr/local/bin
 
+  	GO111MODULE=on go install github.com/sw33tLie/bbscope@latest
+	sudo cp $HOME/go/bin/bbscope /usr/local/bin
+ 
 	go install github.com/lc/gau/v2/cmd/gau@latest
 	sudo cp $HOME/go/bin/gau /usr/local/bin
  	wget https://raw.githubusercontent.com/lc/gau/master/.gau.toml -O $HOME/.gau.toml
