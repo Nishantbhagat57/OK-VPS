@@ -1,0 +1,4 @@
+[{
+	"command":"/home/op/domaintool/./massdns_to_a_record_convert.sh input output --verbose --threads 25",
+	"ext":"txt"
+}]
