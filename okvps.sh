@@ -803,6 +803,7 @@ mkdir -p $HOME/BB/wordlist
     	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/bingnode.json -O $HOME/.axiom/modules/bingnode.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/hexhttp.json -O $HOME/.axiom/modules/hexhttp.json
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/wafw00f1.json -O $HOME/.axiom/modules/wafw00f1.json
+      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/massdns2A.json -O $HOME/.axiom/modules/massdns2A.json
      	sudo rm $HOME/.axiom/interact/axiom-exec
       	sudo rm $HOME/.axiom/interact/axiom-scan
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec-ax -O $HOME/.axiom/interact/axiom-exec
