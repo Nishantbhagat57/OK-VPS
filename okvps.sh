@@ -15,7 +15,8 @@ mkdir -p $HOME/BB/wordlist
 	sudo apt install wget > /dev/null 2>&1;
  	sudo mkdir -p /usr/local/bin
 	sudo chown $USER /usr/local/bin
- 
+ 	sudo apt-get install jq
+  
 	#curl -fsSLo- https://s.id/golang-linux | bash
 	#sed -i '/export GOROOT=/d; /export GOPATH=/d; /export PATH=.*GOROOT.*GOPATH/d' ~/.bashrc
 	#echo 'export GOROOT="$HOME/go"
