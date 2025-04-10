@@ -1,0 +1,5 @@
+[{
+  "command":"python3 /home/op/virustotal_relations.py input output",
+  "ext":"txt",
+  "threads":"8"
+}]
