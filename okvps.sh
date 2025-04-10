@@ -806,6 +806,7 @@ mkdir -p $HOME/BB/wordlist
      	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/wafw00f1.json -O $HOME/.axiom/modules/wafw00f1.json
       	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/massdns2A.json -O $HOME/.axiom/modules/massdns2A.json
        	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/virustotal.json -O $HOME/.axiom/modules/virustotal.json
+	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/vtrelations.json -O $HOME/.axiom/modules/vtrelations.json
      	sudo rm $HOME/.axiom/interact/axiom-exec
       	sudo rm $HOME/.axiom/interact/axiom-scan
  	wget https://raw.githubusercontent.com/Nishantbhagat57/OK-VPS/main/axiom-exec-ax -O $HOME/.axiom/interact/axiom-exec
