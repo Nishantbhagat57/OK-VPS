@@ -1,0 +1,4 @@
+[{
+  "command":"/home/op/recon/installer/scripts/virustotal_masscan.sh input output",
+  "ext":"txt"
+}]
