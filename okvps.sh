@@ -121,6 +121,7 @@ mkdir -p $HOME/BB/wordlist
 	#brew install openssl
 	brew upgrade ruby
  	brew install xclip
+  	brew install pigz
 	sudo apt-get install pkg-config
 
   	cd /home/linuxbrew/.linuxbrew/bin
@@ -295,6 +296,7 @@ mkdir -p $HOME/BB/wordlist
   	playwright install
    	pip3 install bbot
 	pip3 install cryptg
+ 	pip3 install PyExecJS
     	bbot --help --ignore-failed-deps
 
 
