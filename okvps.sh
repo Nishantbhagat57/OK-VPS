@@ -109,7 +109,9 @@ mkdir -p $HOME/BB/wordlist
        	brew install ripgrep
 	brew install tree
 	#brew install docker
-
+ 	#brew install docker docker-compose colima
+	#colima start
+ 
 	sudo apt install build-essential zlib1g-dev -y
 	#sudo apt remove openssl -y
 	#sudo apt purge openssl -y
