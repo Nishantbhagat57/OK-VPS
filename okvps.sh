@@ -8,8 +8,9 @@ mkdir -p $HOME/BB
 mkdir -p $HOME/BB/wordlist
 
 	echo -e ${BLUE}"[ENVIRONMENT]" ${RED}"Packages required installation in progress ...";
-	
-    	apt-get update -y > /dev/null 2>&1;
+
+ 	sudo apt-get install sshpass -y
+    	sudo apt-get update -y > /dev/null 2>&1;
     	sudo apt update && sudo apt upgrade -y
     	sudo apt install curl -y
 	sudo apt install wget > /dev/null 2>&1;
