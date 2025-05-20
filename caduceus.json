@@ -1,4 +1,4 @@
 [{
-	"command":"caduceus input 2>&1 | tee -a output",
+	"command":"caduceus input | tee -a output",
 	"ext":"txt"
 }]
