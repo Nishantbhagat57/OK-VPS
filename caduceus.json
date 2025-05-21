@@ -1,4 +1,4 @@
 [{
-	"command":"stdbuf -i0 -o0 -e0 caduceus -c 200 -i input 2>&1 | tee -a output",
+	"command":"stdbuf -i0 -o0 -e0 caduceus -c 1000 -i input 2>&1 | tee -a output",
 	"ext":"txt"
 }]
