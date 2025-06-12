@@ -1,5 +1,5 @@
 [{
 	"command":"subdominator --domain-list input --silent --no-color | tee -a output",
 	"ext":"txt",
-  "threads":"5"
+	"threads":"5"
 }]
