@@ -398,7 +398,7 @@ mkdir -p $HOME/BB/wordlist
 	go install github.com/tomnomnom/assetfinder@latest
 	sudo cp $HOME/go/bin/assetfinder /usr/local/bin
 	
-	go install github.com/tomnomnom/httprobe@master
+	go install github.com/TargetPackage/httprobe@latest
 	sudo cp $HOME/go/bin/httprobe /usr/bin/
 	
 	go install github.com/haccer/subjack@latest
