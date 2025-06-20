@@ -505,7 +505,13 @@ mkdir -p $HOME/BB/wordlist
 
  	go install github.com/Ademking/domains@latest
   	sudo cp $HOME/go/bin/domains /usr/local/bin
- 
+
+    	go install github.com/hakluke/hakrevdns@latest
+ 	sudo cp $HOME/go/bin/hakrevdns /usr/local/bin
+
+  	go install -v github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest
+   	sudo cp $HOME/go/bin/mapcidr /usr/local/bin
+  
 	npm install -g @llllvvuu/dl-webapp-sources
  	npm install webcrack --global
     
