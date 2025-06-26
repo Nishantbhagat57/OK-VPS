@@ -886,6 +886,8 @@ mkdir -p $HOME/BB/wordlist
    	git clone https://github.com/codingo/Interlace.git
     	cd Interlace
      	python3 setup.py install --user
+
+      	wget https://github.com/Nishantbhagat57/unimap/raw/refs/heads/master/unimap
   
  	sudo chmod 777 $HOME/BB/*
   	sudo chmod 777 $HOME/BB/*/*
