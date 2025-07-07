@@ -967,6 +967,7 @@ mkdir -p $HOME/BB/wordlist
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
  	rustup update
+  	cargo install tun2proxy
 
  	bbot -t evilcorp.com -p subdomain-enum
 	
