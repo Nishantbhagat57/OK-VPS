@@ -300,6 +300,7 @@ mkdir -p $HOME/BB/wordlist
    	pip3 install bbot
 	pip3 install cryptg
  	pip3 install PyExecJS
+  	pip3 install px-proxy
   	pip3 install git+https://github.com/mitmproxy/netlib.git@master
   	pip3 install --upgrade subdominator
     	bbot --help --ignore-failed-deps
