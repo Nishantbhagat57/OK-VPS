@@ -416,8 +416,8 @@ mkdir -p $HOME/BB/wordlist
 	go install github.com/Josue87/gotator@latest
 	sudo cp $HOME/go/bin/gotator /usr/local/bin
 	
-	go install -v github.com/tomnomnom/anew@latest
-	sudo cp $HOME/go/bin/anew /usr/local/bin
+	#go install -v github.com/tomnomnom/anew@latest
+	#sudo cp $HOME/go/bin/anew /usr/local/bin
 	
 	go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 	sudo cp $HOME/go/bin/httpx /usr/local/bin
@@ -554,6 +554,8 @@ mkdir -p $HOME/BB/wordlist
 	
 	cd $HOME/BB
 	cargo install ripgen
+
+	cargo install anew
 	
 	cd $HOME/BB
 	git clone https://github.com/shmilylty/OneForAll.git
