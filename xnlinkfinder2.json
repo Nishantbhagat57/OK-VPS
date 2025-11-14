@@ -1,5 +1,5 @@
 [{
-	"command":"xnLinkFinder -i input -op cli | tee output",
+	"command":"xnLinkFinder -i input -op cli | tee -a output",
 	"ext":"txt",
 	"threads":"10"
 }]
