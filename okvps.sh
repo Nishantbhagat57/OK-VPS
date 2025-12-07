@@ -191,7 +191,7 @@ mkdir -p $HOME/BB/wordlist
 
  	az
        
-       	cd $HOME/BB
+    cd $HOME/BB
 	git clone https://github.com/rofl0r/proxychains-ng
  	cd proxychains-ng
 	./configure --prefix=/usr --sysconfdir=/etc
@@ -248,7 +248,26 @@ mkdir -p $HOME/BB/wordlist
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/python3.11-config python3-config
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/wheel3.11 wheel
 	sudo ln -s /home/linuxbrew/.linuxbrew/Cellar/python@3.11/3.11.*/bin/2to3-3.11 2to3
-
+	
+	sudo apt remove ugrep -y
+	
+	cd $HOME/BB
+	git clone https://github.com/Genivia/ugrep.git
+	cd $HOME/BB/ugrep
+	sudo chmod 777 *
+	./build.sh
+	sudo make install
+	
+	sudo chmod 777 $HOME/BB/ugrep/bin/*
+	
+	sudo cp $HOME/BB/ugrep/bin/ug+ /usr/bin/ug+
+	sudo cp $HOME/BB/ugrep/bin/ugrep+ /usr/bin/ugrep+
+	sudo cp $HOME/BB/ugrep/bin/ug /usr/bin/ug
+	sudo cp $HOME/BB/ugrep/bin/ugrep /usr/bin/ugrep
+	sudo cp $HOME/BB/ugrep/bin/ugrep-indexer /usr/bin/ugrep-indexer
+	
+	sudo chmod 777 -R $HOME/BB
+	cd $HOME/BB
 
 	pip3 install requests beautifulsoup4
 	pip3 install aiohttp aiofiles jsbeautifier
