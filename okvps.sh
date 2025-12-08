@@ -18,7 +18,7 @@ mkdir -p $HOME/BB/wordlist
  	sudo apt-get install jq
   	sudo apt-get install sshpass -y
    	sudo apt update && sudo apt install rsync -y
-	sudo apt-get install libdbus-1-dev libglib2.0-dev
+	sudo apt-get install libdbus-1-dev libglib2.0-dev -y
    
 	#curl -fsSLo- https://s.id/golang-linux | bash
 	#sed -i '/export GOROOT=/d; /export GOPATH=/d; /export PATH=.*GOROOT.*GOPATH/d' ~/.bashrc
