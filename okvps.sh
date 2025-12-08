@@ -100,6 +100,7 @@ mkdir -p $HOME/BB/wordlist
   	brew install node
    	brew install python-tk
     	brew install jadx
+	brew install screen
   	brew install geckodriver
   	brew tap owasp-amass/amass
    	brew install amass
