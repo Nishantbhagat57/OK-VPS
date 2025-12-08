@@ -89,6 +89,7 @@ mkdir -p $HOME/BB/wordlist
  	brew install python-tk@3.11
  	brew install gcc
  	brew install git
+	brew install dbus glib
   
 	#python3 -m pip uninstall pip
 	#sudo python3 -m pip uninstall pip
