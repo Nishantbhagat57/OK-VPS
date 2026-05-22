@@ -613,6 +613,7 @@ mkdir -p $HOME/BB/wordlist
 	pip3 install -r requirements.txt
  	pip3 install lithops
   	brew install awscli
+	pip3 install boto3
 
     	cd $HOME/BB
      	git clone https://github.com/Nishantbhagat57/hfinderx.git
