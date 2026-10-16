@@ -35,6 +35,7 @@ mkdir -p $HOME/BB/wordlist
 	echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
 	echo 'export GOPATH=$HOME/go' >> ~/.bashrc
 	echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc
+	echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bashrc
 	source ~/.bashrc
 
 	cd $HOME/BB
